@@ -14,7 +14,8 @@ class HeadHunterAPI():
             "per_page": 100,
             "text": self.keyword,
             "search_field": "name",
-            "page": 0
+            "page": 0,
+            "only_with_salary": True
         }
 
     def get_vacancies(self) -> list[dict]:
