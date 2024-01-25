@@ -11,10 +11,25 @@ class Vacancy:
                  ):
         self.vacancy_title = vacancy_title  # заголовок вакансии
         self.vacancy_city = vacancy_city  # город
-        self.salary_from = salary_from  # заработанная плата от
-        self.salary_to = salary_to  # заработанная плата до
+        self.salary_from = self.confirm_salary(salary_from)  # заработанная плата от
+        self.salary_to = self.confirm_salary(salary_to)  # заработанная плата до
+        self.vacancy_currency = self.confirm_currency(vacancy_currency)  # валюта
         self.vacancy_responsibilities = vacancy_responsibilities  # должностные обязанности
         self.vacancy_url = vacancy_url  # ссылка на вакансию
+
+    @staticmethod
+    def confirm_salary(salary):
+        """Проверка заработанной платы"""
+        is salary is None:
+            return 0
+        return salary
+
+    @staticmethod
+    def confirm_currency(currency):
+        """Проверка валюты"""
+        if currency == 'RUB':
+            currency = 'RUB'
+        return currency
 
     def to_dict(self):
         """Возвращает вакансию в виде словаря"""
