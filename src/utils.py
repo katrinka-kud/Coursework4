@@ -77,9 +77,38 @@ def filtered_vacancies_by_salary(vacancies: list[Vacancy], minimal_salary=0):
     """Фильтрует вакансии по минимальной заработанной плате, установленной пользователем"""
     filtered_vacancies = []
     for vacancy in vacancies:
-        if vacancy.salary_from >= minimal_salary
+        if vacancy.salary_from >= minimal_salary and vacancy.vacancy_currency == 'RUB':
             filtered_vacancies.append(vacancy)
     return sorted(filtered_vacancies)
+
+
+def filtered_salary():
+    """Фильтрует, введенную пользователем, минимальную заработанную плату"""
+    while True:
+        salary = 0
+        salary_query = input('Введите минимальную заработанную плату: ')
+        if not salary_query.isdigit():
+            print('Введите целое число')
+            continue
+        elif int(salary_query) < 0:
+            print('Введите целое число')
+            continue
+        else:
+            salary = salary_query
+            break
+    return int(salary)
+
+
+def filtered_platform(vacancies, platform):
+    """Фильтрует вакансии в выбранной платформе"""
+    filtered_vacancies = []
+    if platform:
+        for vacancy in vacancies:
+            if vacancy.platform == platform:
+                filtered_vacancies.append(vacancy)
+    else:
+        filtered_vacancies = vacancies
+    return filtered_vacancies
 
 
 def shows_vacancies(vacancies):
