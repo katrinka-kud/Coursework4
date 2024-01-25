@@ -3,14 +3,14 @@ class Vacancy:
 
     def __init__(self,
                  vacancy_title: str,
-                 vacancy_region: str,
+                 vacancy_city: str,
                  salary_from: int,
                  salary_to: int,
                  vacancy_responsibilities: str,
                  vacancy_url: str
                  ):
         self.vacancy_title = vacancy_title  # заголовок вакансии
-        self.vacancy_region = vacancy_region  # регион
+        self.vacancy_city = vacancy_city  # город
         self.salary_from = salary_from  # заработанная плата от
         self.salary_to = salary_to  # заработанная плата до
         self.vacancy_responsibilities = vacancy_responsibilities  # должностные обязанности
@@ -19,7 +19,7 @@ class Vacancy:
     def to_dict(self):
         """Возвращает вакансию в виде словаря"""
         return {"vacancy_title": self.vacancy_title,
-                "vacancy_region": self.vacancy_region,
+                "vacancy_city": self.vacancy_city,
                 "salary_from": self.salary_from,
                 "salary_to": self.salary_to,
                 "vacancy_responsibilities": self.vacancy_responsibilities,
@@ -61,14 +61,14 @@ class Vacancy_HeadHunter(Vacancy):
 
     def __init__(self,
                  vacancy_title: str,
-                 vacancy_region: str,
+                 vacancy_city: str,
                  salary_from: int,
                  salary_to: int,
                  vacancy_responsibilities: str,
                  vacancy_url: str
                  ):
         super().__init__(vacancy_title,
-                         vacancy_region,
+                         vacancy_city,
                          salary_from,
                          salary_to,
                          vacancy_responsibilities,
@@ -89,14 +89,14 @@ class Vacancy_SuperJob(Vacancy):
 
     def __init__(self,
                  vacancy_title: str,
-                 vacancy_region: str,
+                 vacancy_city: str,
                  salary_from: int,
                  salary_to: int,
                  vacancy_responsibilities: str,
                  vacancy_url: str
                  ):
         super().__init__(vacancy_title,
-                         vacancy_region,
+                         vacancy_city,
                          salary_from,
                          salary_to,
                          vacancy_responsibilities,
