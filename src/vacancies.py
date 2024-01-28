@@ -20,15 +20,15 @@ class Vacancy:
     @staticmethod
     def confirm_salary(salary):
         """Проверка заработанной платы"""
-        is salary is None:
+        if salary is None:
             return 0
         return salary
 
     @staticmethod
     def confirm_currency(currency):
         """Проверка валюты"""
-        if currency == 'RUB':
-            currency = 'RUB'
+        if currency == 'RUR':
+            currency = 'RUR'
         return currency
 
     def to_dict(self):

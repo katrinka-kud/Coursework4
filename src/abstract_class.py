@@ -6,7 +6,7 @@ import json
 class Get_Vacancies(ABC):
     """Абстрактный класс для получения вакансий"""
 
-    def __init__(self, path):
+    def __init__(self, path: str):
         self.path = path
 
     @abstractmethod
@@ -21,11 +21,11 @@ class Get_JSONSaver(Get_Vacancies):
     def sorting_salaries_rub(vacancies: list[Vacancy]):
         sorted_vacancies = []
         for vacancy in vacancies:
-            if vacancy.vacancy_currency == 'RUB':
+            if vacancy.vacancy_currency == 'RUR':
                 sorted_vacancies.append(vacancy)
         return sorted_vacancies
 
-    def add_vacancy(self, vacancies):
+    def get_vacancies(self, vacancies):
         all_vacancies = [vacancy.to_json() for vacancy in self.sorting_salaries_rub(vacancies)]
         with open(self.path, 'w', encoding='utf-8') as file:
-            json.dump(all_vacancies, file, indent=2, ensure_ascii=False)
+            json.dump(all_vacancies, file, indent=4, ensure_ascii=False)

@@ -1,5 +1,6 @@
 import requests
 import os
+from abc import ABC, abstractmethod
 
 from dotenv import load_dotenv
 
@@ -9,20 +10,32 @@ superjob_api_key = os.getenv("SuperJob_API_KEY")
 url_superjob = "https://api.superjob.ru/2.0/vacancies/"
 
 
-class SuperJobAPI():
+class APIConnector(ABC):
+    """Класс для работы с API"""
+
+    @abstractmethod
+    def __init__(self, keyword: str):
+        self.__parameters = {}
+
+    @abstractmethod
+    def get_vacancies(self) -> list[dict]:
+        pass
+
+
+class SuperJobAPI(APIConnector):
     """Получение данных с сайта SuperJob"""
 
     def __init__(self, keyword: str):
         """Инициализация класса
         keyword = ключевое слово для поиска вакансий"""
         self.keyword = keyword
-        self.parameters = {
+        self.__parameters = {
             "count": 100,
             "keyword": self.keyword,
             "page": 0,
             "keywords": {
                 "srws": 1,
-                "skwc": "or",
+                "skwc": "particular",
                 "keys": self.keyword
             }
         }
@@ -33,9 +46,8 @@ class SuperJobAPI():
     def get_vacancies(self) -> list[dict]:
         """Получение вакансий
         :return: Список с вакансиями"""
-        response = requests.get(url=url_superjob, params=self.parameters, headers=self.my_headers)
-        return response.json()["objects"]
-
-
-# superjob_api = SuperJobAPI('python')
-# print(superjob_api.get_vacancies())
+        response = requests.get(url=url_superjob, params=self.__parameters, headers=self.my_headers)
+        if response.status_code != 200:
+            raise LoadingError(f"Ошибка получения вакансий! Статус: {response.status_code}.")
+        else:
+            return response.json()["objects"]
