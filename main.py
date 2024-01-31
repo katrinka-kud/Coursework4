@@ -7,7 +7,7 @@ from src.utils import *
 def main():
     search_word = input("Введите поисковый запрос:\n")
     platform = platform_selection()
-    minimal_salary = filtered_salary
+    minimal_salary = filtered_salary()
 
     hh_api = HeadHunterAPI(search_word)
     sj_api = SuperJobAPI(search_word)
