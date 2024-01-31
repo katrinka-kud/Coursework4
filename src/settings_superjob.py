@@ -1,13 +1,13 @@
 import requests
 import os
 from abc import ABC, abstractmethod
+from settings import url_superjob
 
 from dotenv import load_dotenv
 
 load_dotenv()
 
 superjob_api_key = os.getenv("SuperJob_API_KEY")
-url_superjob = "https://api.superjob.ru/2.0/vacancies/"
 
 
 class APIConnector(ABC):
@@ -43,6 +43,7 @@ class SuperJobAPI(APIConnector):
             "X-Api-App-Id": superjob_api_key
         }
 
+    @property
     def get_vacancies(self) -> list[dict]:
         """Получение вакансий
         :return: Список с вакансиями"""

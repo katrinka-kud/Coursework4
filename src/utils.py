@@ -20,7 +20,7 @@ def get_vacancy_hh(vacancies: list[dict]):
             vacancy_city=vacancy['address'],
             salary_from=vacancy['salary']['from'],
             salary_to=vacancy['salary']['to'],
-            vacancy_responsibilities=vacancy['responsibility'],
+            vacancy_responsibilities=vacancy['snippet']['responsibility'],
             vacancy_url=vacancy['alternate_url']
         )
         list_vacancies.append(sample_vacancy)
@@ -38,12 +38,12 @@ def get_vacancy_sj(vacancies: list[dict]):
     list_vacancies = []
     for vacancy in vacancies:
         sample_vacancy = Vacancy_SuperJob(
-            vacancy_title=vacancy['name'],
+            vacancy_title=vacancy['profession'],
             vacancy_city=vacancy['address'],
-            salary_from=vacancy['salary']['from'],
-            salary_to=vacancy['salary']['to'],
-            vacancy_responsibilities=vacancy['responsibility'],
-            vacancy_url=vacancy['alternate_url']
+            salary_from=vacancy['payment_from'],
+            salary_to=vacancy['payment_to'],
+            vacancy_responsibilities=vacancy['candidat'],
+            vacancy_url=vacancy['link']
         )
         list_vacancies.append(sample_vacancy)
     return list_vacancies
@@ -53,11 +53,11 @@ def platform_selection():
     """Позволяет выбрать платформу для поиска вакансии"""
     while True:
         platform = ''
-        platform_option = int(input('Выберите платформу для поиска вакансий:\n'
-                                    '0 - Затрудняюсь ответить\n'
-                                    '1 - HeadHunter\n'
-                                    '2 - SuperJob'
-                                    'Введите цифру: '))
+        platform_option = input('Выберите платформу для поиска вакансий:\n'
+                                '0 - Затрудняюсь ответить\n'
+                                '1 - HeadHunter\n'
+                                '2 - SuperJob\n'
+                                'Введите цифру: ')
         if platform_option == '0':
             platform = None
             break
@@ -73,13 +73,13 @@ def platform_selection():
     return platform
 
 
-def filtered_vacancies_by_salary(vacancies: list[Vacancy], minimal_salary=0):
-    """Фильтрует вакансии по минимальной заработанной плате, установленной пользователем"""
-    filtered_vacancies = []
+def filtered_vacancies_minimal_salary(vacancies: list[Vacancy], min_salary=0):
+    """Фильтрует вакансии по минимальной заработанной плате"""
+    sort_vacancies = []
     for vacancy in vacancies:
-        if vacancy.salary_from >= minimal_salary and vacancy.vacancy_currency == 'RUB':
-            filtered_vacancies.append(vacancy)
-    return sorted(filtered_vacancies)
+        if int(vacancy.salary_from) >= 0:
+            sort_vacancies.append(vacancy)
+    return sorted(sort_vacancies)
 
 
 def filtered_salary():
@@ -114,25 +114,24 @@ def filtered_platform(vacancies, platform):
 def shows_vacancies(vacancies):
     """Показывает вакансии пользователю"""
     while True:
-        top_n = int(input("Введите количество вакансий для вывода в топ N: "))
+        top_n = input("Введите количество вакансий для вывода в топ N: ")
         if not top_n.isdigit():
             print("Введите целое число")
             continue
         else:
+            top_n = int(top_n)
             break
     print("Мы подобрали для Вас вакансии:\n")
     for vacancy in vacancies[0:top_n]:
-        if vacancy.vacancy_skills:
-            skills = vacancy.vacancy_skills.split('.')
         if vacancy.salary_to > 0:
-            print(f'Вакансия: {vacancy.vacancy_name}\n'
-                  f'Заработанная плата: {vacancy.vacancy.salary_from - vacancy.vacancy.salary_to}\n'
+            print(f'Вакансия: {vacancy.vacancy_title}\n'
+                  f'Заработанная плата: {vacancy.total_salary}\n'
                   f'Город: {vacancy.vacancy_city}\n'
                   f'Описание: {vacancy.vacancy_responsibilities}\n'
                   f'Ссылка на вакансию: {vacancy.vacancy_url}\n')
         else:
-            print(f'Вакансия: {vacancy.vacancy_name}\n'
-                  f'Заработанная плата от: {vacancy.vacancy.salary_from}\n'
+            print(f'Вакансия: {vacancy.vacancy_title}\n'
+                  f'Заработанная плата от: {vacancy.salary_from}\n'
                   f'Город: {vacancy.vacancy_city}\n'
                   f'Описание: {vacancy.vacancy_responsibilities}\n'
                   f'Ссылка на вакансию: {vacancy.vacancy_url}\n')

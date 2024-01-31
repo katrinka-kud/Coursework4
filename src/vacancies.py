@@ -13,7 +13,7 @@ class Vacancy:
         self.vacancy_city = vacancy_city  # город
         self.salary_from = self.confirm_salary(salary_from)  # заработанная плата от
         self.salary_to = self.confirm_salary(salary_to)  # заработанная плата до
-        self.vacancy_currency = self.confirm_currency(vacancy_currency)  # валюта
+        self.total_salary = self.general_salary(salary_from, salary_to) # заработанная плата итого
         self.vacancy_responsibilities = vacancy_responsibilities  # должностные обязанности
         self.vacancy_url = vacancy_url  # ссылка на вакансию
 
@@ -24,12 +24,8 @@ class Vacancy:
             return 0
         return salary
 
-    @staticmethod
-    def confirm_currency(currency):
-        """Проверка валюты"""
-        if currency == 'RUR':
-            currency = 'RUR'
-        return currency
+    def general_salary(self, salary_from, salary_to):
+         return f'{self.confirm_salary(salary_from)} - {self.confirm_salary(salary_to)}'
 
     def to_dict(self):
         """Возвращает вакансию в виде словаря"""
@@ -88,7 +84,7 @@ class Vacancy_HeadHunter(Vacancy):
                          salary_to,
                          vacancy_responsibilities,
                          vacancy_url)
-        self.platfom = "HeadHunter"
+        self.platform = "HeadHunter"
 
     def __str__(self):
         return f"Вакансия с HeadHunter: {self.vacancy_title}"
@@ -116,7 +112,7 @@ class Vacancy_SuperJob(Vacancy):
                          salary_to,
                          vacancy_responsibilities,
                          vacancy_url)
-        self.platfom = "SuperJob"
+        self.platform = "SuperJob"
 
     def __str__(self):
         return f"Вакансия с SuperJob: {self.vacancy_title}"

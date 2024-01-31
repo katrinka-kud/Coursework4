@@ -17,15 +17,7 @@ class Get_Vacancies(ABC):
 class Get_JSONSaver(Get_Vacancies):
     """Отбирает и записывает вакансии в файл json"""
 
-    @staticmethod
-    def sorting_salaries_rub(vacancies: list[Vacancy]):
-        sorted_vacancies = []
-        for vacancy in vacancies:
-            if vacancy.vacancy_currency == 'RUR':
-                sorted_vacancies.append(vacancy)
-        return sorted_vacancies
-
     def get_vacancies(self, vacancies):
-        all_vacancies = [vacancy.to_json() for vacancy in self.sorting_salaries_rub(vacancies)]
+        all_vacancies = [vacancy.__dict__ for vacancy in vacancies]
         with open(self.path, 'w', encoding='utf-8') as file:
             json.dump(all_vacancies, file, indent=4, ensure_ascii=False)

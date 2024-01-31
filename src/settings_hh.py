@@ -1,7 +1,6 @@
 import requests
 from abc import ABC, abstractmethod
-
-url_hh = "https://api.hh.ru/vacancies"
+from settings import url_hh
 
 
 class APIConnector(ABC):
@@ -31,6 +30,7 @@ class HeadHunterAPI(APIConnector):
             "only_with_salary": True
         }
 
+    @property
     def get_vacancies(self) -> list[dict]:
         """Получение вакансий
         :return: Список с вакансиями"""
