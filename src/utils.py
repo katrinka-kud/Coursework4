@@ -17,7 +17,7 @@ def get_vacancy_hh(vacancies: list[dict]):
     for vacancy in vacancies:
         sample_vacancy = Vacancy_HeadHunter(
             vacancy_title=vacancy['name'],
-            vacancy_city=vacancy['address'],
+            vacancy_city="Город не указан" if (vacancy['address']) == None else vacancy['address']['city'],
             salary_from=vacancy['salary']['from'],
             salary_to=vacancy['salary']['to'],
             vacancy_responsibilities=vacancy['snippet']['responsibility'],
@@ -39,7 +39,7 @@ def get_vacancy_sj(vacancies: list[dict]):
     for vacancy in vacancies:
         sample_vacancy = Vacancy_SuperJob(
             vacancy_title=vacancy['profession'],
-            vacancy_city=vacancy['address'],
+            vacancy_city="Город не указан" if (vacancy['town']) == None else vacancy['town']['title'],
             salary_from=vacancy['payment_from'],
             salary_to=vacancy['payment_to'],
             vacancy_responsibilities=vacancy['candidat'],

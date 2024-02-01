@@ -1,18 +1,7 @@
 [
     {
         "vacancy_title": "Программист Python junior",
-        "vacancy_city": {
-            "city": "Минск",
-            "street": "проспект Дзержинского",
-            "building": "3Б",
-            "lat": 53.891614,
-            "lng": 27.527435,
-            "description": null,
-            "raw": "Минск, проспект Дзержинского, 3Б",
-            "metro": null,
-            "metro_stations": [],
-            "id": "13795427"
-        },
+        "vacancy_city": "Минск",
         "salary_from": 300,
         "salary_to": 1000,
         "total_salary": "300 - 1000",
@@ -21,29 +10,8 @@
         "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Backend-разработчик (Python)",
-        "vacancy_city": {
-            "city": "Санкт-Петербург",
-            "street": "Большая Монетная улица",
-            "building": "16",
-            "lat": 59.962242,
-            "lng": 30.319758,
-            "description": null,
-            "raw": "Санкт-Петербург, Большая Монетная улица, 16",
-            "metro": null,
-            "metro_stations": [],
-            "id": "4333173"
-        },
-        "salary_from": 70000,
-        "salary_to": 0,
-        "total_salary": "70000 - 0",
-        "vacancy_responsibilities": "Участие в выполнении проектов по созданию цифровой инфраструктуры для партнёров компании. Поддержка и развитие функционала сайта.",
-        "vacancy_url": "https://hh.ru/vacancy/92454497",
-        "platform": "HeadHunter"
-    },
-    {
         "vacancy_title": "Стажер-разработчик Python",
-        "vacancy_city": null,
+        "vacancy_city": "Город не указан",
         "salary_from": 50000,
         "salary_to": 50000,
         "total_salary": "50000 - 50000",
@@ -53,7 +21,7 @@
     },
     {
         "vacancy_title": "Junior Python Backend Developer",
-        "vacancy_city": null,
+        "vacancy_city": "Город не указан",
         "salary_from": 0,
         "salary_to": 60000,
         "total_salary": "0 - 60000",
@@ -62,59 +30,18 @@
         "platform": "HeadHunter"
     },
     {
+        "vacancy_title": "Backend-разработчик (Python)",
+        "vacancy_city": "Санкт-Петербург",
+        "salary_from": 70000,
+        "salary_to": 0,
+        "total_salary": "70000 - 0",
+        "vacancy_responsibilities": "Участие в выполнении проектов по созданию цифровой инфраструктуры для партнёров компании. Поддержка и развитие функционала сайта.",
+        "vacancy_url": "https://hh.ru/vacancy/92454497",
+        "platform": "HeadHunter"
+    },
+    {
         "vacancy_title": "Junior Python-программист",
-        "vacancy_city": {
-            "city": "Москва",
-            "street": "2-й Рощинский проезд",
-            "building": "8с4",
-            "lat": 55.705569,
-            "lng": 37.603056,
-            "description": null,
-            "raw": "Москва, 2-й Рощинский проезд, 8с4",
-            "metro": {
-                "station_name": "Ленинский проспект",
-                "line_name": "Калужско-Рижская",
-                "station_id": "6.74",
-                "line_id": "6",
-                "lat": 55.70678,
-                "lng": 37.58499
-            },
-            "metro_stations": [
-                {
-                    "station_name": "Ленинский проспект",
-                    "line_name": "Калужско-Рижская",
-                    "station_id": "6.74",
-                    "line_id": "6",
-                    "lat": 55.70678,
-                    "lng": 37.58499
-                },
-                {
-                    "station_name": "Площадь Гагарина",
-                    "line_name": "МЦК",
-                    "station_id": "95.534",
-                    "line_id": "95",
-                    "lat": 55.706944,
-                    "lng": 37.585833
-                },
-                {
-                    "station_name": "Тульская",
-                    "line_name": "Серпуховско-Тимирязевская",
-                    "station_id": "9.142",
-                    "line_id": "9",
-                    "lat": 55.70961,
-                    "lng": 37.622569
-                },
-                {
-                    "station_name": "Шаболовская",
-                    "line_name": "Калужско-Рижская",
-                    "station_id": "6.157",
-                    "line_id": "6",
-                    "lat": 55.718828,
-                    "lng": 37.607892
-                }
-            ],
-            "id": "13390091"
-        },
+        "vacancy_city": "Москва",
         "salary_from": 45000,
         "salary_to": 0,
         "total_salary": "45000 - 0",
@@ -123,29 +50,8 @@
         "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Backend разработчик Python",
-        "vacancy_city": null,
-        "salary_from": 80000,
-        "salary_to": 180000,
-        "total_salary": "80000 - 180000",
-        "vacancy_responsibilities": "Разработка пользовательских интерфейсов. Участие в проектировании, выборе и доработке архитектурных и технологических решений. Настройка страниц и компонентов. Кастомизация внешнего вида...",
-        "vacancy_url": "https://hh.ru/vacancy/91664414",
-        "platform": "HeadHunter"
-    },
-    {
         "vacancy_title": "Стажер-программист Python (backend)",
-        "vacancy_city": {
-            "city": "Казань",
-            "street": null,
-            "building": null,
-            "lat": 55.796127,
-            "lng": 49.106414,
-            "description": null,
-            "raw": "Казань",
-            "metro": null,
-            "metro_stations": [],
-            "id": "13890041"
-        },
+        "vacancy_city": "Казань",
         "salary_from": 0,
         "salary_to": 30000,
         "total_salary": "0 - 30000",
@@ -154,19 +60,18 @@
         "platform": "HeadHunter"
     },
     {
+        "vacancy_title": "Backend разработчик Python",
+        "vacancy_city": "Город не указан",
+        "salary_from": 80000,
+        "salary_to": 180000,
+        "total_salary": "80000 - 180000",
+        "vacancy_responsibilities": "Разработка пользовательских интерфейсов. Участие в проектировании, выборе и доработке архитектурных и технологических решений. Настройка страниц и компонентов. Кастомизация внешнего вида...",
+        "vacancy_url": "https://hh.ru/vacancy/91664414",
+        "platform": "HeadHunter"
+    },
+    {
         "vacancy_title": "Программист-разработчик Python",
-        "vacancy_city": {
-            "city": "Калининград",
-            "street": "Комсомольская улица",
-            "building": null,
-            "lat": 54.728347,
-            "lng": 20.478642,
-            "description": null,
-            "raw": "Калининград, Комсомольская улица",
-            "metro": null,
-            "metro_stations": [],
-            "id": "2755150"
-        },
+        "vacancy_city": "Калининград",
         "salary_from": 80000,
         "salary_to": 0,
         "total_salary": "80000 - 0",
@@ -176,18 +81,7 @@
     },
     {
         "vacancy_title": "Стажер-разработчик Python",
-        "vacancy_city": {
-            "city": "Минск",
-            "street": "улица Куйбышева",
-            "building": "35",
-            "lat": 53.914022,
-            "lng": 27.568092,
-            "description": null,
-            "raw": "Минск, улица Куйбышева, 35",
-            "metro": null,
-            "metro_stations": [],
-            "id": "11460181"
-        },
+        "vacancy_city": "Минск",
         "salary_from": 1900,
         "salary_to": 0,
         "total_salary": "1900 - 0",
@@ -196,29 +90,8 @@
         "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Python разработчик (Django)",
-        "vacancy_city": null,
-        "salary_from": 60000,
-        "salary_to": 100000,
-        "total_salary": "60000 - 100000",
-        "vacancy_responsibilities": "Разработка проектов (Вашим первым проектом будет разработка сайта турниров для игр CS: GO, Dota 2, PUBG и др.). ",
-        "vacancy_url": "https://hh.ru/vacancy/91636601",
-        "platform": "HeadHunter"
-    },
-    {
         "vacancy_title": "Backend-разработчик Python",
-        "vacancy_city": {
-            "city": "Краснодар",
-            "street": "Северная улица",
-            "building": "395",
-            "lat": 45.037649,
-            "lng": 38.99433,
-            "description": null,
-            "raw": "Краснодар, Северная улица, 395",
-            "metro": null,
-            "metro_stations": [],
-            "id": "859243"
-        },
+        "vacancy_city": "Краснодар",
         "salary_from": 0,
         "salary_to": 160000,
         "total_salary": "0 - 160000",
@@ -228,18 +101,7 @@
     },
     {
         "vacancy_title": "Программист Python junior",
-        "vacancy_city": {
-            "city": "Москва",
-            "street": "улица Солянка",
-            "building": "13/3с1",
-            "lat": 55.751285,
-            "lng": 37.641935,
-            "description": null,
-            "raw": "Москва, улица Солянка, 13/3с1",
-            "metro": null,
-            "metro_stations": [],
-            "id": "2745671"
-        },
+        "vacancy_city": "Москва",
         "salary_from": 85000,
         "salary_to": 90000,
         "total_salary": "85000 - 90000",
@@ -248,43 +110,28 @@
         "platform": "HeadHunter"
     },
     {
+        "vacancy_title": "Программист-разработчик Python",
+        "vacancy_city": "Караганда",
+        "salary_from": 150000,
+        "salary_to": 350000,
+        "total_salary": "150000 - 350000",
+        "vacancy_responsibilities": "Разработка и оптимизация пользовательских интерфейсов в прикладной программе. Интеграция графических элементов, созданных в CorelDRAW, в приложение. Тестирование и отладка разработанных...",
+        "vacancy_url": "https://hh.ru/vacancy/92463794",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Python разработчик (Django)",
+        "vacancy_city": "Город не указан",
+        "salary_from": 60000,
+        "salary_to": 100000,
+        "total_salary": "60000 - 100000",
+        "vacancy_responsibilities": "Разработка проектов (Вашим первым проектом будет разработка сайта турниров для игр CS: GO, Dota 2, PUBG и др.). ",
+        "vacancy_url": "https://hh.ru/vacancy/91636601",
+        "platform": "HeadHunter"
+    },
+    {
         "vacancy_title": "Стажер-программист Python",
-        "vacancy_city": {
-            "city": null,
-            "street": null,
-            "building": null,
-            "lat": null,
-            "lng": null,
-            "description": null,
-            "raw": null,
-            "metro": {
-                "station_name": "Павелецкая",
-                "line_name": "Замоскворецкая",
-                "station_id": "2.101",
-                "line_id": "2",
-                "lat": 55.729741,
-                "lng": 37.638693
-            },
-            "metro_stations": [
-                {
-                    "station_name": "Павелецкая",
-                    "line_name": "Замоскворецкая",
-                    "station_id": "2.101",
-                    "line_id": "2",
-                    "lat": 55.729741,
-                    "lng": 37.638693
-                },
-                {
-                    "station_name": "Серпуховская",
-                    "line_name": "Серпуховско-Тимирязевская",
-                    "station_id": "9.37",
-                    "line_id": "9",
-                    "lat": 55.726548,
-                    "lng": 37.624792
-                }
-            ],
-            "id": "12869648"
-        },
+        "vacancy_city": null,
         "salary_from": 60000,
         "salary_to": 0,
         "total_salary": "60000 - 0",
@@ -293,18 +140,8 @@
         "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Python developer",
-        "vacancy_city": null,
-        "salary_from": 0,
-        "salary_to": 90000,
-        "total_salary": "0 - 90000",
-        "vacancy_responsibilities": null,
-        "vacancy_url": "https://hh.ru/vacancy/92366174",
-        "platform": "HeadHunter"
-    },
-    {
         "vacancy_title": "Разработчик Python",
-        "vacancy_city": null,
+        "vacancy_city": "Город не указан",
         "salary_from": 200000,
         "salary_to": 250000,
         "total_salary": "200000 - 250000",
@@ -314,28 +151,7 @@
     },
     {
         "vacancy_title": "Python Developer",
-        "vacancy_city": {
-            "city": "Ростов-на-Дону",
-            "street": "улица Станиславского",
-            "building": "46",
-            "lat": 47.216245,
-            "lng": 39.706245,
-            "description": null,
-            "raw": "Ростов-на-Дону, улица Станиславского, 46",
-            "metro": null,
-            "metro_stations": [],
-            "id": "7715861"
-        },
-        "salary_from": 45000,
-        "salary_to": 0,
-        "total_salary": "45000 - 0",
-        "vacancy_responsibilities": "Участвовать в разработке продукта на всех этапах, применяя свои знания <highlighttext>Python</highlighttext>. Строить качественный код, принимая участие в Code Review под...",
-        "vacancy_url": "https://hh.ru/vacancy/92151346",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Python Developer",
-        "vacancy_city": null,
+        "vacancy_city": "Город не указан",
         "salary_from": 1000000,
         "salary_to": 3000000,
         "total_salary": "1000000 - 3000000",
@@ -345,34 +161,7 @@
     },
     {
         "vacancy_title": "Аналитик со знанием Python",
-        "vacancy_city": {
-            "city": "Москва",
-            "street": "Бауманская улица",
-            "building": "6 стр.2",
-            "lat": 55.776011,
-            "lng": 37.675289,
-            "description": null,
-            "raw": "Москва, Бауманская улица, 6 стр.2",
-            "metro": {
-                "station_name": "Бауманская",
-                "line_name": "Арбатско-Покровская",
-                "station_id": "3.17",
-                "line_id": "3",
-                "lat": 55.772405,
-                "lng": 37.67904
-            },
-            "metro_stations": [
-                {
-                    "station_name": "Бауманская",
-                    "line_name": "Арбатско-Покровская",
-                    "station_id": "3.17",
-                    "line_id": "3",
-                    "lat": 55.772405,
-                    "lng": 37.67904
-                }
-            ],
-            "id": "67839"
-        },
+        "vacancy_city": "Москва",
         "salary_from": 130000,
         "salary_to": 0,
         "total_salary": "130000 - 0",
@@ -381,225 +170,18 @@
         "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Стажер Back-end разработчика (php, python, c#)",
-        "vacancy_city": null,
-        "salary_from": 15000,
-        "salary_to": 30000,
-        "total_salary": "15000 - 30000",
-        "vacancy_responsibilities": "Разработка на bitrix framework. Разработка API для мобильных приложений и веб-интерфейсов. Интеграция по API с внешними сервисами (банки, доставщики...",
-        "vacancy_url": "https://hh.ru/vacancy/89753481",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Python Backend Developer",
-        "vacancy_city": null,
-        "salary_from": 120000,
-        "salary_to": 0,
-        "total_salary": "120000 - 0",
-        "vacancy_responsibilities": "Разработка серверной части. Проектирование архитектуры кода, проведение грумминг сессий с командой. Написание свежего и чистого кода, никакого легаси (все пишется...",
-        "vacancy_url": "https://hh.ru/vacancy/92292859",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Python разработчик (Middle)",
-        "vacancy_city": null,
-        "salary_from": 140000,
-        "salary_to": 0,
-        "total_salary": "140000 - 0",
-        "vacancy_responsibilities": "Участвовать в оценке задач. Участвовать в проектировании нового функционала. Backend: <highlighttext>python</highlighttext>, rust. Frontend: ts, js. Работа с современным стеком технологий. ",
-        "vacancy_url": "https://hh.ru/vacancy/92362909",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Программист Python",
-        "vacancy_city": {
-            "city": "Пермь",
-            "street": "Рабоче-Крестьянская улица",
-            "building": "22",
-            "lat": 58.004633,
-            "lng": 56.271476,
-            "description": null,
-            "raw": "Пермь, Рабоче-Крестьянская улица, 22",
-            "metro": null,
-            "metro_stations": [],
-            "id": "15030248"
-        },
-        "salary_from": 100000,
-        "salary_to": 120000,
-        "total_salary": "100000 - 120000",
-        "vacancy_responsibilities": "Программирование на языке <highlighttext>Python</highlighttext>. Работа с базами данных PostgreSQL. Разработка Web-приложений, Telegram-ботов.",
-        "vacancy_url": "https://hh.ru/vacancy/92048326",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Python developer (junior+)",
-        "vacancy_city": null,
-        "salary_from": 100000,
-        "salary_to": 150000,
-        "total_salary": "100000 - 150000",
-        "vacancy_responsibilities": null,
-        "vacancy_url": "https://hh.ru/vacancy/91580175",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Junior Python разработчик",
-        "vacancy_city": {
-            "city": "Санкт-Петербург",
-            "street": "набережная Обводного Канала",
-            "building": "93а",
-            "lat": 59.916451,
-            "lng": 30.338676,
-            "description": null,
-            "raw": "Санкт-Петербург, набережная Обводного Канала, 93а",
-            "metro": null,
-            "metro_stations": [],
-            "id": "445179"
-        },
-        "salary_from": 60000,
-        "salary_to": 0,
-        "total_salary": "60000 - 0",
-        "vacancy_responsibilities": "Написание и поддержка интеграций (<highlighttext>python</highlighttext>2/3 + REST/SOAP + MySQL). * Разработка новых продуктов (<highlighttext>python</highlighttext>3 + Flask/Django...",
-        "vacancy_url": "https://hh.ru/vacancy/91861865",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Python разработчик",
-        "vacancy_city": {
-            "city": "Кемерово",
-            "street": "бульвар Строителей",
-            "building": "53",
-            "lat": 55.333605,
-            "lng": 86.174298,
-            "description": null,
-            "raw": "Кемерово, бульвар Строителей, 53",
-            "metro": null,
-            "metro_stations": [],
-            "id": "6920469"
-        },
+        "vacancy_title": "Python developer",
+        "vacancy_city": "Город не указан",
         "salary_from": 0,
-        "salary_to": 180000,
-        "total_salary": "0 - 180000",
-        "vacancy_responsibilities": "Разработка и развитие проектов на <highlighttext>Python</highlighttext>.",
-        "vacancy_url": "https://hh.ru/vacancy/92111342",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Python разработчик (Django)",
-        "vacancy_city": null,
-        "salary_from": 100000,
-        "salary_to": 200000,
-        "total_salary": "100000 - 200000",
-        "vacancy_responsibilities": "Меня зовут Катерина, я руковожу разработкой, ставлю задачи. Живу в Казани.",
-        "vacancy_url": "https://hh.ru/vacancy/92358133",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Стажер-разработчик Python/Java/Kotlin (компьютерное зрение), удалённо",
-        "vacancy_city": null,
-        "salary_from": 15000,
-        "salary_to": 0,
-        "total_salary": "15000 - 0",
-        "vacancy_responsibilities": "Разработка функционала компьютерного зрения для взаимодействия с сайтами.",
-        "vacancy_url": "https://hh.ru/vacancy/89166853",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Куратор в образовательный центр сфера it (python)",
-        "vacancy_city": {
-            "city": "Алматы",
-            "street": "улица Шевченко",
-            "building": "165Б",
-            "lat": 43.243054,
-            "lng": 76.892123,
-            "description": null,
-            "raw": "Алматы, улица Шевченко, 165Б",
-            "metro": {
-                "station_name": "Алатау",
-                "line_name": "Первая",
-                "station_id": "64.436",
-                "line_id": "64",
-                "lat": 43.239041,
-                "lng": 76.897612
-            },
-            "metro_stations": [
-                {
-                    "station_name": "Алатау",
-                    "line_name": "Первая",
-                    "station_id": "64.436",
-                    "line_id": "64",
-                    "lat": 43.239041,
-                    "lng": 76.897612
-                },
-                {
-                    "station_name": "Сайран",
-                    "line_name": "Первая",
-                    "station_id": "64.510",
-                    "line_id": "64",
-                    "lat": 43.2362,
-                    "lng": 76.8764
-                },
-                {
-                    "station_name": "Театр имени Ауэзова",
-                    "line_name": "Первая",
-                    "station_id": "64.435",
-                    "line_id": "64",
-                    "lat": 43.240362,
-                    "lng": 76.917519
-                }
-            ],
-            "id": "15023703"
-        },
-        "salary_from": 130000,
-        "salary_to": 200000,
-        "total_salary": "130000 - 200000",
-        "vacancy_responsibilities": "Взаимодействие с каждым учеником по отдельности (7-11кл). - Поддержка учеников в чате, и в личных беседах в рабочее время. - ",
-        "vacancy_url": "https://hh.ru/vacancy/92226850",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Стажер-разработчик Python",
-        "vacancy_city": null,
-        "salary_from": 40000,
-        "salary_to": 0,
-        "total_salary": "40000 - 0",
-        "vacancy_responsibilities": "Предоставление отчетов о проделанной работе. - Разработка ботов. - Обучение разработке.",
-        "vacancy_url": "https://hh.ru/vacancy/89358110",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Python developer (junior+)",
-        "vacancy_city": null,
-        "salary_from": 100000,
-        "salary_to": 150000,
-        "total_salary": "100000 - 150000",
+        "salary_to": 90000,
+        "total_salary": "0 - 90000",
         "vacancy_responsibilities": null,
-        "vacancy_url": "https://hh.ru/vacancy/91580174",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Программист-разработчик Python Flask SQLAlchemy JS Junior Blacksheep",
-        "vacancy_city": null,
-        "salary_from": 50000,
-        "salary_to": 65000,
-        "total_salary": "50000 - 65000",
-        "vacancy_responsibilities": "Разработка веб приложения, работа над одним проектом. Контроль микросервисов веб приложения. Находить не тривиальные решения.",
-        "vacancy_url": "https://hh.ru/vacancy/92293098",
+        "vacancy_url": "https://hh.ru/vacancy/92366174",
         "platform": "HeadHunter"
     },
     {
         "vacancy_title": "Инженер-программист python (парсинг, разработка ПО)",
-        "vacancy_city": {
-            "city": "Брест",
-            "street": "Пионерская улица",
-            "building": "52",
-            "lat": 52.09743349773058,
-            "lng": 23.730842024401337,
-            "description": null,
-            "raw": "Брест, Пионерская улица, 52",
-            "metro": null,
-            "metro_stations": [],
-            "id": "7162417"
-        },
+        "vacancy_city": "Брест",
         "salary_from": 1000,
         "salary_to": 2400,
         "total_salary": "1000 - 2400",
@@ -608,56 +190,108 @@
         "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Разработчик Python",
-        "vacancy_city": {
-            "city": "Ростов-на-Дону",
-            "street": "Нахичевань, улица 14-я Линия",
-            "building": "55/50",
-            "lat": 47.235792122589174,
-            "lng": 39.75566731415495,
-            "description": null,
-            "raw": "Ростов-на-Дону, Нахичевань, улица 14-я Линия, 55/50",
-            "metro": null,
-            "metro_stations": [],
-            "id": "647101"
-        },
-        "salary_from": 30000,
-        "salary_to": 80000,
-        "total_salary": "30000 - 80000",
-        "vacancy_responsibilities": "Разработка бэкенд новых SaaS проектов на <highlighttext>Python</highlighttext>. Поддержка, устранение проблем в ранее разработанном ПО совместно с командой. Рефакторинг и оптимизация...",
-        "vacancy_url": "https://hh.ru/vacancy/80736556",
+        "vacancy_title": "Python Backend Developer",
+        "vacancy_city": "Город не указан",
+        "salary_from": 120000,
+        "salary_to": 0,
+        "total_salary": "120000 - 0",
+        "vacancy_responsibilities": "Разработка серверной части. Проектирование архитектуры кода, проведение грумминг сессий с командой. Написание свежего и чистого кода, никакого легаси (все пишется...",
+        "vacancy_url": "https://hh.ru/vacancy/92292859",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Стажер Back-end разработчика (php, python, c#)",
+        "vacancy_city": "Город не указан",
+        "salary_from": 15000,
+        "salary_to": 30000,
+        "total_salary": "15000 - 30000",
+        "vacancy_responsibilities": "Разработка на bitrix framework. Разработка API для мобильных приложений и веб-интерфейсов. Интеграция по API с внешними сервисами (банки, доставщики...",
+        "vacancy_url": "https://hh.ru/vacancy/89753481",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Python Developer",
+        "vacancy_city": "Ростов-на-Дону",
+        "salary_from": 45000,
+        "salary_to": 0,
+        "total_salary": "45000 - 0",
+        "vacancy_responsibilities": "Участвовать в разработке продукта на всех этапах, применяя свои знания <highlighttext>Python</highlighttext>. Строить качественный код, принимая участие в Code Review под...",
+        "vacancy_url": "https://hh.ru/vacancy/92151346",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Стажер-разработчик Python/Java/Kotlin (компьютерное зрение), удалённо",
+        "vacancy_city": "Город не указан",
+        "salary_from": 15000,
+        "salary_to": 0,
+        "total_salary": "15000 - 0",
+        "vacancy_responsibilities": "Разработка функционала компьютерного зрения для взаимодействия с сайтами.",
+        "vacancy_url": "https://hh.ru/vacancy/89166853",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Программист Python",
+        "vacancy_city": "Пермь",
+        "salary_from": 100000,
+        "salary_to": 120000,
+        "total_salary": "100000 - 120000",
+        "vacancy_responsibilities": "Программирование на языке <highlighttext>Python</highlighttext>. Работа с базами данных PostgreSQL. Разработка Web-приложений, Telegram-ботов.",
+        "vacancy_url": "https://hh.ru/vacancy/92048326",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Python разработчик (Middle)",
+        "vacancy_city": "Город не указан",
+        "salary_from": 140000,
+        "salary_to": 0,
+        "total_salary": "140000 - 0",
+        "vacancy_responsibilities": "Участвовать в оценке задач. Участвовать в проектировании нового функционала. Backend: <highlighttext>python</highlighttext>, rust. Frontend: ts, js. Работа с современным стеком технологий. ",
+        "vacancy_url": "https://hh.ru/vacancy/92362909",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Junior Python разработчик",
+        "vacancy_city": "Санкт-Петербург",
+        "salary_from": 60000,
+        "salary_to": 0,
+        "total_salary": "60000 - 0",
+        "vacancy_responsibilities": "Написание и поддержка интеграций (<highlighttext>python</highlighttext>2/3 + REST/SOAP + MySQL). * Разработка новых продуктов (<highlighttext>python</highlighttext>3 + Flask/Django...",
+        "vacancy_url": "https://hh.ru/vacancy/91861865",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Куратор в образовательный центр сфера it (python)",
+        "vacancy_city": "Алматы",
+        "salary_from": 130000,
+        "salary_to": 200000,
+        "total_salary": "130000 - 200000",
+        "vacancy_responsibilities": "Взаимодействие с каждым учеником по отдельности (7-11кл). - Поддержка учеников в чате, и в личных беседах в рабочее время. - ",
+        "vacancy_url": "https://hh.ru/vacancy/92226850",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Python разработчик (Django)",
+        "vacancy_city": "Город не указан",
+        "salary_from": 100000,
+        "salary_to": 200000,
+        "total_salary": "100000 - 200000",
+        "vacancy_responsibilities": "Меня зовут Катерина, я руковожу разработкой, ставлю задачи. Живу в Казани.",
+        "vacancy_url": "https://hh.ru/vacancy/92358133",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Стажер-разработчик Python",
+        "vacancy_city": "Город не указан",
+        "salary_from": 40000,
+        "salary_to": 0,
+        "total_salary": "40000 - 0",
+        "vacancy_responsibilities": "Предоставление отчетов о проделанной работе. - Разработка ботов. - Обучение разработке.",
+        "vacancy_url": "https://hh.ru/vacancy/89358110",
         "platform": "HeadHunter"
     },
     {
         "vacancy_title": "Младший программист Python",
-        "vacancy_city": {
-            "city": "Электросталь",
-            "street": "улица Тевосяна",
-            "building": "25",
-            "lat": 55.779084,
-            "lng": 38.445828,
-            "description": null,
-            "raw": "Электросталь, улица Тевосяна, 25",
-            "metro": {
-                "station_name": "Терехово",
-                "line_name": "Большая кольцевая линия",
-                "station_id": "97.809",
-                "line_id": "97",
-                "lat": 55.749167,
-                "lng": 38.460556
-            },
-            "metro_stations": [
-                {
-                    "station_name": "Терехово",
-                    "line_name": "Большая кольцевая линия",
-                    "station_id": "97.809",
-                    "line_id": "97",
-                    "lat": 55.749167,
-                    "lng": 38.460556
-                }
-            ],
-            "id": "14739153"
-        },
+        "vacancy_city": "Электросталь",
         "salary_from": 40000,
         "salary_to": 0,
         "total_salary": "40000 - 0",
@@ -666,40 +300,28 @@
         "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Junior Программист/Разработчик Python",
-        "vacancy_city": {
-            "city": "Новосибирск",
-            "street": "улица Николаева",
-            "building": "12",
-            "lat": 54.857844,
-            "lng": 83.111798,
-            "description": null,
-            "raw": "Новосибирск, улица Николаева, 12",
-            "metro": null,
-            "metro_stations": [],
-            "id": "3724874"
-        },
-        "salary_from": 60000,
+        "vacancy_title": "Программист-разработчик Python Flask SQLAlchemy JS Junior Blacksheep",
+        "vacancy_city": "Город не указан",
+        "salary_from": 50000,
+        "salary_to": 65000,
+        "total_salary": "50000 - 65000",
+        "vacancy_responsibilities": "Разработка веб приложения, работа над одним проектом. Контроль микросервисов веб приложения. Находить не тривиальные решения.",
+        "vacancy_url": "https://hh.ru/vacancy/92293098",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Программист Linux/Python",
+        "vacancy_city": null,
+        "salary_from": 250000,
         "salary_to": 0,
-        "total_salary": "60000 - 0",
-        "vacancy_responsibilities": "Разработка, тестирование, отладка и поддержка кросс-платформенных (x86/ARM) приложений на <highlighttext>Python</highlighttext>.",
-        "vacancy_url": "https://hh.ru/vacancy/91764768",
+        "total_salary": "250000 - 0",
+        "vacancy_responsibilities": "разработки под Asterisk. Формат работы:",
+        "vacancy_url": "https://hh.ru/vacancy/91485755",
         "platform": "HeadHunter"
     },
     {
         "vacancy_title": "Программист Python, С, С++",
-        "vacancy_city": {
-            "city": "Уфа",
-            "street": "улица Ленина",
-            "building": "194",
-            "lat": 54.749543,
-            "lng": 55.961584,
-            "description": null,
-            "raw": "Уфа, улица Ленина, 194",
-            "metro": null,
-            "metro_stations": [],
-            "id": "6352112"
-        },
+        "vacancy_city": "Уфа",
         "salary_from": 70000,
         "salary_to": 0,
         "total_salary": "70000 - 0",
@@ -708,18 +330,38 @@
         "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Программист Python",
-        "vacancy_city": null,
-        "salary_from": 50000,
+        "vacancy_title": "Python-разработчик (уровень middle)",
+        "vacancy_city": "Город не указан",
+        "salary_from": 0,
+        "salary_to": 220000,
+        "total_salary": "0 - 220000",
+        "vacancy_responsibilities": "Разработка и редактирование backend части (Django, FastAPI) для работы web-приложения. Документирование созданного API в Wiki проекта. Разработка интеграции с...",
+        "vacancy_url": "https://hh.ru/vacancy/91828281",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Python developer (junior+)",
+        "vacancy_city": "Город не указан",
+        "salary_from": 100000,
         "salary_to": 150000,
-        "total_salary": "50000 - 150000",
-        "vacancy_responsibilities": "Разрабатываем несколько своих проектов. Боты, порталы, парсеры и многое другое.",
-        "vacancy_url": "https://hh.ru/vacancy/91218964",
+        "total_salary": "100000 - 150000",
+        "vacancy_responsibilities": null,
+        "vacancy_url": "https://hh.ru/vacancy/91580175",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Разработчик Python",
+        "vacancy_city": "Ростов-на-Дону",
+        "salary_from": 30000,
+        "salary_to": 80000,
+        "total_salary": "30000 - 80000",
+        "vacancy_responsibilities": "Разработка бэкенд новых SaaS проектов на <highlighttext>Python</highlighttext>. Поддержка, устранение проблем в ранее разработанном ПО совместно с командой. Рефакторинг и оптимизация...",
+        "vacancy_url": "https://hh.ru/vacancy/80736556",
         "platform": "HeadHunter"
     },
     {
         "vacancy_title": "Стажер-разработчик Python",
-        "vacancy_city": null,
+        "vacancy_city": "Город не указан",
         "salary_from": 40000,
         "salary_to": 0,
         "total_salary": "40000 - 0",
@@ -728,8 +370,28 @@
         "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Middle Python Developer",
+        "vacancy_title": "Программист Python",
+        "vacancy_city": "Город не указан",
+        "salary_from": 50000,
+        "salary_to": 150000,
+        "total_salary": "50000 - 150000",
+        "vacancy_responsibilities": "Разрабатываем несколько своих проектов. Боты, порталы, парсеры и многое другое.",
+        "vacancy_url": "https://hh.ru/vacancy/91218964",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Python-разработчик (Инженер-программист)",
         "vacancy_city": null,
+        "salary_from": 90000,
+        "salary_to": 0,
+        "total_salary": "90000 - 0",
+        "vacancy_responsibilities": "Интерес к архитектуре приложений и построению распределенных сервисных систем. Работа по гибким методологиям разработки ПО с использованием программных продуктов Atlassian...",
+        "vacancy_url": "https://hh.ru/vacancy/91683615",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Middle Python Developer",
+        "vacancy_city": "Город не указан",
         "salary_from": 100000,
         "salary_to": 120000,
         "total_salary": "100000 - 120000",
@@ -739,34 +401,7 @@
     },
     {
         "vacancy_title": "Программист Python Junior (BigData)",
-        "vacancy_city": {
-            "city": "Екатеринбург",
-            "street": "улица Энгельса",
-            "building": "36",
-            "lat": 56.834038,
-            "lng": 60.621792,
-            "description": null,
-            "raw": "Екатеринбург, улица Энгельса, 36",
-            "metro": {
-                "station_name": "Площадь 1905 года",
-                "line_name": "Север-Юг",
-                "station_id": "48.266",
-                "line_id": "48",
-                "lat": 56.837982,
-                "lng": 60.59734
-            },
-            "metro_stations": [
-                {
-                    "station_name": "Площадь 1905 года",
-                    "line_name": "Север-Юг",
-                    "station_id": "48.266",
-                    "line_id": "48",
-                    "lat": 56.837982,
-                    "lng": 60.59734
-                }
-            ],
-            "id": "6154316"
-        },
+        "vacancy_city": "Екатеринбург",
         "salary_from": 45000,
         "salary_to": 100000,
         "total_salary": "45000 - 100000",
@@ -776,7 +411,7 @@
     },
     {
         "vacancy_title": "Middle Backend Developer (Python)",
-        "vacancy_city": null,
+        "vacancy_city": "Город не указан",
         "salary_from": 200000,
         "salary_to": 0,
         "total_salary": "200000 - 0",
@@ -785,102 +420,18 @@
         "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Программист Python",
-        "vacancy_city": null,
-        "salary_from": 40000,
-        "salary_to": 80000,
-        "total_salary": "40000 - 80000",
-        "vacancy_responsibilities": "Разработка и поддержка веб-приложений на <highlighttext>Python</highlighttext>. - Участие в проектировании архитектуры приложений и баз данных. - Оптимизация производительности и масштабируемости веб...",
-        "vacancy_url": "https://hh.ru/vacancy/92089196",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Python-разработчик (уровень middle)",
-        "vacancy_city": null,
-        "salary_from": 0,
-        "salary_to": 220000,
-        "total_salary": "0 - 220000",
-        "vacancy_responsibilities": "Разработка и редактирование backend части (Django, FastAPI) для работы web-приложения. Документирование созданного API в Wiki проекта. Разработка интеграции с...",
-        "vacancy_url": "https://hh.ru/vacancy/91828281",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Аналитик (SQL, Python, Looker Studio, PowerBI)",
-        "vacancy_city": null,
-        "salary_from": 120000,
+        "vacancy_title": "Junior Программист/Разработчик Python",
+        "vacancy_city": "Новосибирск",
+        "salary_from": 60000,
         "salary_to": 0,
-        "total_salary": "120000 - 0",
-        "vacancy_responsibilities": "Изучение данных из различных предметных областей. Написание SQL запросов. Сбор данных с помощью <highlighttext>Python</highlighttext>. Проектирование и создание отчетов и дашбородов.",
-        "vacancy_url": "https://hh.ru/vacancy/91992519",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Программист Linux/Python",
-        "vacancy_city": {
-            "city": null,
-            "street": null,
-            "building": null,
-            "lat": null,
-            "lng": null,
-            "description": null,
-            "raw": null,
-            "metro": {
-                "station_name": "Улица 1905 года",
-                "line_name": "Таганско-Краснопресненская",
-                "station_id": "7.146",
-                "line_id": "7",
-                "lat": 55.763944,
-                "lng": 37.562271
-            },
-            "metro_stations": [
-                {
-                    "station_name": "Улица 1905 года",
-                    "line_name": "Таганско-Краснопресненская",
-                    "station_id": "7.146",
-                    "line_id": "7",
-                    "lat": 55.763944,
-                    "lng": 37.562271
-                }
-            ],
-            "id": "739669"
-        },
-        "salary_from": 250000,
-        "salary_to": 0,
-        "total_salary": "250000 - 0",
-        "vacancy_responsibilities": "разработки под Asterisk. Формат работы:",
-        "vacancy_url": "https://hh.ru/vacancy/91485755",
+        "total_salary": "60000 - 0",
+        "vacancy_responsibilities": "Разработка, тестирование, отладка и поддержка кросс-платформенных (x86/ARM) приложений на <highlighttext>Python</highlighttext>.",
+        "vacancy_url": "https://hh.ru/vacancy/91764768",
         "platform": "HeadHunter"
     },
     {
         "vacancy_title": "Middle Python Backend Developer (Flask, FastAPI)",
-        "vacancy_city": {
-            "city": null,
-            "street": null,
-            "building": null,
-            "lat": null,
-            "lng": null,
-            "description": null,
-            "raw": null,
-            "metro": {
-                "station_name": "Щукинская",
-                "line_name": "Таганско-Краснопресненская",
-                "station_id": "7.160",
-                "line_id": "7",
-                "lat": 55.8094,
-                "lng": 37.463241
-            },
-            "metro_stations": [
-                {
-                    "station_name": "Щукинская",
-                    "line_name": "Таганско-Краснопресненская",
-                    "station_id": "7.160",
-                    "line_id": "7",
-                    "lat": 55.8094,
-                    "lng": 37.463241
-                }
-            ],
-            "id": "11498330"
-        },
+        "vacancy_city": null,
         "salary_from": 150000,
         "salary_to": 250000,
         "total_salary": "150000 - 250000",
@@ -889,92 +440,8 @@
         "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Senior Backend Developer (Python)",
-        "vacancy_city": null,
-        "salary_from": 0,
-        "salary_to": 530000,
-        "total_salary": "0 - 530000",
-        "vacancy_responsibilities": "Проектирование и разработка нового функционала. Разработка сервисов, связанных с хранилищами данных. Оптимизация и выявление узких мест в существующем коде и...",
-        "vacancy_url": "https://hh.ru/vacancy/92337065",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Разработчик Python",
-        "vacancy_city": null,
-        "salary_from": 0,
-        "salary_to": 170000,
-        "total_salary": "0 - 170000",
-        "vacancy_responsibilities": "Писать код на <highlighttext>python</highlighttext>: разработка по задачам, рефакторинг/реструктуризация легаси, написание юнит-тестов. Реализовывать задачи согласно функциональным требованиям. ",
-        "vacancy_url": "https://hh.ru/vacancy/91126665",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Middle Python Backend",
-        "vacancy_city": {
-            "city": "Новосибирск",
-            "street": "улица Николаева",
-            "building": "12",
-            "lat": 54.857844,
-            "lng": 83.111807,
-            "description": null,
-            "raw": "Новосибирск, улица Николаева, 12",
-            "metro": null,
-            "metro_stations": [],
-            "id": "12668354"
-        },
-        "salary_from": 130000,
-        "salary_to": 150000,
-        "total_salary": "130000 - 150000",
-        "vacancy_responsibilities": "Кода для решения прикладных задач. И адаптация готового кода. И отладка программ. Научных статей и имплементация алгоритмов по ним. ",
-        "vacancy_url": "https://hh.ru/vacancy/92450046",
-        "platform": "HeadHunter"
-    },
-    {
         "vacancy_title": "Программист Python",
-        "vacancy_city": {
-            "city": "Санкт-Петербург",
-            "street": "проспект Энгельса",
-            "building": "13/2",
-            "lat": 60.00047229625569,
-            "lng": 30.32923469444238,
-            "description": null,
-            "raw": "Санкт-Петербург, проспект Энгельса, 13/2",
-            "metro": {
-                "station_name": "Лесная",
-                "line_name": "Кировско-Выборгская",
-                "station_id": "14.195",
-                "line_id": "14",
-                "lat": 59.984947,
-                "lng": 30.344259
-            },
-            "metro_stations": [
-                {
-                    "station_name": "Лесная",
-                    "line_name": "Кировско-Выборгская",
-                    "station_id": "14.195",
-                    "line_id": "14",
-                    "lat": 59.984947,
-                    "lng": 30.344259
-                },
-                {
-                    "station_name": "Пионерская",
-                    "line_name": "Московско-Петроградская",
-                    "station_id": "15.213",
-                    "line_id": "15",
-                    "lat": 60.002487,
-                    "lng": 30.296759
-                },
-                {
-                    "station_name": "Удельная",
-                    "line_name": "Московско-Петроградская",
-                    "station_id": "15.212",
-                    "line_id": "15",
-                    "lat": 60.016697,
-                    "lng": 30.315607
-                }
-            ],
-            "id": "13356979"
-        },
+        "vacancy_city": "Санкт-Петербург",
         "salary_from": 0,
         "salary_to": 70000,
         "total_salary": "0 - 70000",
@@ -983,112 +450,18 @@
         "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Python developer в ОАЭ",
-        "vacancy_city": null,
-        "salary_from": 7000,
+        "vacancy_title": "Аналитик (SQL, Python, Looker Studio, PowerBI)",
+        "vacancy_city": "Город не указан",
+        "salary_from": 120000,
         "salary_to": 0,
-        "total_salary": "7000 - 0",
-        "vacancy_responsibilities": "Непосредственная работа с поисковым движком продукта. Интерпретация пользовательских запросов, категоризация, подготовка данных. Дополнительная задача: настройка и имплементация чатботов. ",
-        "vacancy_url": "https://hh.ru/vacancy/92274632",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Pre-middle Python Developer",
-        "vacancy_city": null,
-        "salary_from": 75000,
-        "salary_to": 100000,
-        "total_salary": "75000 - 100000",
-        "vacancy_responsibilities": "Мы внедряем в парках аттракционов систему Photo Box Pro (www.photo-box.online) – программно-аппаратный модуль, позволяющий вести автоматическую фотосъемку по движению, сохранению...",
-        "vacancy_url": "https://hh.ru/vacancy/91793344",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Python-разработчик",
-        "vacancy_city": null,
-        "salary_from": 100000,
-        "salary_to": 150000,
-        "total_salary": "100000 - 150000",
-        "vacancy_responsibilities": "Разработка эффективного и масштабируемого кода на <highlighttext>Python</highlighttext>. Создание компонентов бэкэнда для повышения отзывчивости и производительности системы. Тестирование и отладка программного...",
-        "vacancy_url": "https://hh.ru/vacancy/91256157",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Pre-middle Python Developer",
-        "vacancy_city": null,
-        "salary_from": 75000,
-        "salary_to": 100000,
-        "total_salary": "75000 - 100000",
-        "vacancy_responsibilities": "Мы внедряем в парках аттракционов систему Photo Box Pro (www.photo-box.online) – программно-аппаратный модуль, позволяющий вести автоматическую фотосъемку по движению, сохранению...",
-        "vacancy_url": "https://hh.ru/vacancy/91793467",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Python-разработчик (Инженер-программист)",
-        "vacancy_city": {
-            "city": null,
-            "street": null,
-            "building": null,
-            "lat": 55.75774600430232,
-            "lng": 37.747486531734495,
-            "description": null,
-            "raw": "г. Москва, шоссе Энтузиастов, дом 29",
-            "metro": null,
-            "metro_stations": [],
-            "id": "146678"
-        },
-        "salary_from": 90000,
-        "salary_to": 0,
-        "total_salary": "90000 - 0",
-        "vacancy_responsibilities": "Интерес к архитектуре приложений и построению распределенных сервисных систем. Работа по гибким методологиям разработки ПО с использованием программных продуктов Atlassian...",
-        "vacancy_url": "https://hh.ru/vacancy/91683615",
+        "total_salary": "120000 - 0",
+        "vacancy_responsibilities": "Изучение данных из различных предметных областей. Написание SQL запросов. Сбор данных с помощью <highlighttext>Python</highlighttext>. Проектирование и создание отчетов и дашбородов.",
+        "vacancy_url": "https://hh.ru/vacancy/91992519",
         "platform": "HeadHunter"
     },
     {
         "vacancy_title": "Chapter Backend Python Lead",
-        "vacancy_city": {
-            "city": "Москва",
-            "street": "проспект Андропова",
-            "building": "10А",
-            "lat": 55.692932,
-            "lng": 37.665363,
-            "description": null,
-            "raw": "Москва, проспект Андропова, 10А",
-            "metro": {
-                "station_name": "Автозаводская",
-                "line_name": "Замоскворецкая",
-                "station_id": "2.2",
-                "line_id": "2",
-                "lat": 55.706634,
-                "lng": 37.657008
-            },
-            "metro_stations": [
-                {
-                    "station_name": "Автозаводская",
-                    "line_name": "Замоскворецкая",
-                    "station_id": "2.2",
-                    "line_id": "2",
-                    "lat": 55.706634,
-                    "lng": 37.657008
-                },
-                {
-                    "station_name": "ЗИЛ",
-                    "line_name": "МЦК",
-                    "station_id": "95.531",
-                    "line_id": "95",
-                    "lat": 55.698333,
-                    "lng": 37.648333
-                },
-                {
-                    "station_name": "Технопарк",
-                    "line_name": "Замоскворецкая",
-                    "station_id": "2.512",
-                    "line_id": "2",
-                    "lat": 55.695,
-                    "lng": 37.664167
-                }
-            ],
-            "id": "5817368"
-        },
+        "vacancy_city": "Москва",
         "salary_from": 500000,
         "salary_to": 0,
         "total_salary": "500000 - 0",
@@ -1097,174 +470,68 @@
         "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Python разработчик",
-        "vacancy_city": null,
-        "salary_from": 150000,
-        "salary_to": 250000,
-        "total_salary": "150000 - 250000",
+        "vacancy_title": "Python developer (junior+)",
+        "vacancy_city": "Город не указан",
+        "salary_from": 100000,
+        "salary_to": 150000,
+        "total_salary": "100000 - 150000",
         "vacancy_responsibilities": null,
-        "vacancy_url": "https://hh.ru/vacancy/92400008",
+        "vacancy_url": "https://hh.ru/vacancy/91580174",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Middle Python Backend",
+        "vacancy_city": "Новосибирск",
+        "salary_from": 130000,
+        "salary_to": 150000,
+        "total_salary": "130000 - 150000",
+        "vacancy_responsibilities": "Кода для решения прикладных задач. И адаптация готового кода. И отладка программ. Научных статей и имплементация алгоритмов по ним. ",
+        "vacancy_url": "https://hh.ru/vacancy/92450046",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Разработчик Python",
+        "vacancy_city": "Город не указан",
+        "salary_from": 0,
+        "salary_to": 170000,
+        "total_salary": "0 - 170000",
+        "vacancy_responsibilities": "Писать код на <highlighttext>python</highlighttext>: разработка по задачам, рефакторинг/реструктуризация легаси, написание юнит-тестов. Реализовывать задачи согласно функциональным требованиям. ",
+        "vacancy_url": "https://hh.ru/vacancy/91126665",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Senior Backend Developer (Python)",
+        "vacancy_city": "Город не указан",
+        "salary_from": 0,
+        "salary_to": 530000,
+        "total_salary": "0 - 530000",
+        "vacancy_responsibilities": "Проектирование и разработка нового функционала. Разработка сервисов, связанных с хранилищами данных. Оптимизация и выявление узких мест в существующем коде и...",
+        "vacancy_url": "https://hh.ru/vacancy/92337065",
         "platform": "HeadHunter"
     },
     {
         "vacancy_title": "Python-разработчик",
-        "vacancy_city": {
-            "city": "Москва",
-            "street": "Верейская улица",
-            "building": "29с134",
-            "lat": 55.709444,
-            "lng": 37.442302,
-            "description": null,
-            "raw": "Москва, Верейская улица, 29с134",
-            "metro": {
-                "station_name": "Славянский бульвар",
-                "line_name": "Арбатско-Покровская",
-                "station_id": "3.176",
-                "line_id": "3",
-                "lat": 55.729542,
-                "lng": 37.470973
-            },
-            "metro_stations": [
-                {
-                    "station_name": "Славянский бульвар",
-                    "line_name": "Арбатско-Покровская",
-                    "station_id": "3.176",
-                    "line_id": "3",
-                    "lat": 55.729542,
-                    "lng": 37.470973
-                }
-            ],
-            "id": "2372205"
-        },
-        "salary_from": 180000,
-        "salary_to": 280000,
-        "total_salary": "180000 - 280000",
-        "vacancy_responsibilities": "Принимать активное участие в разработке архитектуры высоконагруженных, масштабируемых и безопасных систем. Осуществлять рефакторинг, оптимизировать код и улучшать производительность существующих высоконагруженных...",
-        "vacancy_url": "https://hh.ru/vacancy/92298919",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Python Backend Developer",
-        "vacancy_city": {
-            "city": "Ташкент",
-            "street": "улица Туртарык",
-            "building": "9",
-            "lat": 41.31496605666908,
-            "lng": 69.32935248156151,
-            "description": null,
-            "raw": "Ташкент, улица Туртарык, 9",
-            "metro": null,
-            "metro_stations": [],
-            "id": "14364621"
-        },
-        "salary_from": 8000000,
-        "salary_to": 20000000,
-        "total_salary": "8000000 - 20000000",
-        "vacancy_responsibilities": "Develop and maintain backend applications using <highlighttext>Python</highlighttext>. Work extensively with FastAPI to create scalable and efficient web services. ",
-        "vacancy_url": "https://hh.ru/vacancy/91366247",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Python developer (Удаленно)",
-        "vacancy_city": null,
-        "salary_from": 0,
+        "vacancy_city": "Город не указан",
+        "salary_from": 100000,
         "salary_to": 150000,
-        "total_salary": "0 - 150000",
-        "vacancy_responsibilities": "Интеграции с внешними и внутренними сервисами. - Проектирование архитектуры. - Взаимодействие с командой.",
-        "vacancy_url": "https://hh.ru/vacancy/91618514",
+        "total_salary": "100000 - 150000",
+        "vacancy_responsibilities": "Разработка эффективного и масштабируемого кода на <highlighttext>Python</highlighttext>. Создание компонентов бэкэнда для повышения отзывчивости и производительности системы. Тестирование и отладка программного...",
+        "vacancy_url": "https://hh.ru/vacancy/91256157",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Python developer в ОАЭ",
+        "vacancy_city": "Город не указан",
+        "salary_from": 7000,
+        "salary_to": 0,
+        "total_salary": "7000 - 0",
+        "vacancy_responsibilities": "Непосредственная работа с поисковым движком продукта. Интерпретация пользовательских запросов, категоризация, подготовка данных. Дополнительная задача: настройка и имплементация чатботов. ",
+        "vacancy_url": "https://hh.ru/vacancy/92274632",
         "platform": "HeadHunter"
     },
     {
         "vacancy_title": "Python Developer",
-        "vacancy_city": null,
-        "salary_from": 1000000,
-        "salary_to": 3000000,
-        "total_salary": "1000000 - 3000000",
-        "vacancy_responsibilities": "Collaborate with cross-functional teams to design, develop, and maintain the Trumo payment platform. Utilize your <highlighttext>Python</highlighttext> skills to build...",
-        "vacancy_url": "https://hh.ru/vacancy/92351262",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Python 3.10+ Backend разработчик",
-        "vacancy_city": null,
-        "salary_from": 130000,
-        "salary_to": 0,
-        "total_salary": "130000 - 0",
-        "vacancy_responsibilities": "НАМИС - занимается разработкой информационных продуктов, программно-аппаратных комплексов и обеспечением информационной безопасности. Аккредитованная IT компания со всеми вытекающими льготами.",
-        "vacancy_url": "https://hh.ru/vacancy/91214646",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Программист-разработчик Python",
-        "vacancy_city": {
-            "city": "Караганда",
-            "street": "проспект Шахтёров",
-            "building": "5/1",
-            "lat": 49.775391,
-            "lng": 73.131156,
-            "description": null,
-            "raw": "Караганда, проспект Шахтёров, 5/1",
-            "metro": null,
-            "metro_stations": [],
-            "id": "2810956"
-        },
-        "salary_from": 150000,
-        "salary_to": 350000,
-        "total_salary": "150000 - 350000",
-        "vacancy_responsibilities": "Разработка и оптимизация пользовательских интерфейсов в прикладной программе. Интеграция графических элементов, созданных в CorelDRAW, в приложение. Тестирование и отладка разработанных...",
-        "vacancy_url": "https://hh.ru/vacancy/92463794",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Python разработчик",
-        "vacancy_city": null,
-        "salary_from": 250000,
-        "salary_to": 300000,
-        "total_salary": "250000 - 300000",
-        "vacancy_responsibilities": "Разрабатывать и поддерживать микросервисы. Автоматизировать работу с Wildberries или Яндекс Маркетом (API).",
-        "vacancy_url": "https://hh.ru/vacancy/92467991",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Разработчик Python (FastAPI, MySQL, Clickhouse), удаленно",
-        "vacancy_city": null,
-        "salary_from": 250000,
-        "salary_to": 0,
-        "total_salary": "250000 - 0",
-        "vacancy_responsibilities": "Собрать команду под проект. - Руководить командой проекта. - Оценка бюджета проекта. - Участвовать в создании крутых продуктов. - Проектировать реализацию новых процессов.",
-        "vacancy_url": "https://hh.ru/vacancy/92333181",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Python Developer",
-        "vacancy_city": {
-            "city": "Самара",
-            "street": "Ярмарочная улица",
-            "building": "55",
-            "lat": 53.19737071102923,
-            "lng": 50.1173142883583,
-            "description": null,
-            "raw": "Самара, Ярмарочная улица, 55",
-            "metro": {
-                "station_name": "Алабинская",
-                "line_name": "Первая",
-                "station_id": "54.509",
-                "line_id": "54",
-                "lat": 53.209689,
-                "lng": 50.134417
-            },
-            "metro_stations": [
-                {
-                    "station_name": "Алабинская",
-                    "line_name": "Первая",
-                    "station_id": "54.509",
-                    "line_id": "54",
-                    "lat": 53.209689,
-                    "lng": 50.134417
-                }
-            ],
-            "id": "405126"
-        },
+        "vacancy_city": "Самара",
         "salary_from": 60000,
         "salary_to": 200000,
         "total_salary": "60000 - 200000",
@@ -1273,19 +540,88 @@
         "platform": "HeadHunter"
     },
     {
+        "vacancy_title": "Python разработчик",
+        "vacancy_city": "Кемерово",
+        "salary_from": 0,
+        "salary_to": 180000,
+        "total_salary": "0 - 180000",
+        "vacancy_responsibilities": "Разработка и развитие проектов на <highlighttext>Python</highlighttext>.",
+        "vacancy_url": "https://hh.ru/vacancy/92111342",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Python 3.10+ Backend разработчик",
+        "vacancy_city": "Город не указан",
+        "salary_from": 130000,
+        "salary_to": 0,
+        "total_salary": "130000 - 0",
+        "vacancy_responsibilities": "НАМИС - занимается разработкой информационных продуктов, программно-аппаратных комплексов и обеспечением информационной безопасности. Аккредитованная IT компания со всеми вытекающими льготами.",
+        "vacancy_url": "https://hh.ru/vacancy/91214646",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Python Backend Developer",
+        "vacancy_city": "Ташкент",
+        "salary_from": 8000000,
+        "salary_to": 20000000,
+        "total_salary": "8000000 - 20000000",
+        "vacancy_responsibilities": "Develop and maintain backend applications using <highlighttext>Python</highlighttext>. Work extensively with FastAPI to create scalable and efficient web services. ",
+        "vacancy_url": "https://hh.ru/vacancy/91366247",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Python-разработчик",
+        "vacancy_city": "Москва",
+        "salary_from": 180000,
+        "salary_to": 280000,
+        "total_salary": "180000 - 280000",
+        "vacancy_responsibilities": "Принимать активное участие в разработке архитектуры высоконагруженных, масштабируемых и безопасных систем. Осуществлять рефакторинг, оптимизировать код и улучшать производительность существующих высоконагруженных...",
+        "vacancy_url": "https://hh.ru/vacancy/92298919",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Pre-middle Python Developer",
+        "vacancy_city": "Город не указан",
+        "salary_from": 75000,
+        "salary_to": 100000,
+        "total_salary": "75000 - 100000",
+        "vacancy_responsibilities": "Мы внедряем в парках аттракционов систему Photo Box Pro (www.photo-box.online) – программно-аппаратный модуль, позволяющий вести автоматическую фотосъемку по движению, сохранению...",
+        "vacancy_url": "https://hh.ru/vacancy/91793467",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Python developer (Удаленно)",
+        "vacancy_city": "Город не указан",
+        "salary_from": 0,
+        "salary_to": 150000,
+        "total_salary": "0 - 150000",
+        "vacancy_responsibilities": "Интеграции с внешними и внутренними сервисами. - Проектирование архитектуры. - Взаимодействие с командой.",
+        "vacancy_url": "https://hh.ru/vacancy/91618514",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Python разработчик",
+        "vacancy_city": "Город не указан",
+        "salary_from": 150000,
+        "salary_to": 250000,
+        "total_salary": "150000 - 250000",
+        "vacancy_responsibilities": null,
+        "vacancy_url": "https://hh.ru/vacancy/92400008",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Pre-middle Python Developer",
+        "vacancy_city": "Город не указан",
+        "salary_from": 75000,
+        "salary_to": 100000,
+        "total_salary": "75000 - 100000",
+        "vacancy_responsibilities": "Мы внедряем в парках аттракционов систему Photo Box Pro (www.photo-box.online) – программно-аппаратный модуль, позволяющий вести автоматическую фотосъемку по движению, сохранению...",
+        "vacancy_url": "https://hh.ru/vacancy/91793344",
+        "platform": "HeadHunter"
+    },
+    {
         "vacancy_title": "Инженер-программист (Python)",
-        "vacancy_city": {
-            "city": "Архангельск",
-            "street": "улица Павла Усова",
-            "building": "12с2",
-            "lat": 64.537846,
-            "lng": 40.585013,
-            "description": null,
-            "raw": "Архангельск, улица Павла Усова, 12с2",
-            "metro": null,
-            "metro_stations": [],
-            "id": "5648996"
-        },
+        "vacancy_city": "Архангельск",
         "salary_from": 40000,
         "salary_to": 0,
         "total_salary": "40000 - 0",
@@ -1294,157 +630,38 @@
         "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Разработчик Python",
-        "vacancy_city": {
-            "city": "Москва",
-            "street": "Садовническая улица",
-            "building": "24с3",
-            "lat": 55.746329,
-            "lng": 37.631595,
-            "description": null,
-            "raw": "Москва, Садовническая улица, 24с3",
-            "metro": null,
-            "metro_stations": [],
-            "id": "7675772"
-        },
-        "salary_from": 75000,
-        "salary_to": 75000,
-        "total_salary": "75000 - 75000",
-        "vacancy_responsibilities": "Разработка и поддержка по внутренним проектам организации (автоматизация процессов). Работа по автоматизации через API-сервисы. Разработка функций сбора, обработки, хранения...",
-        "vacancy_url": "https://hh.ru/vacancy/91387348",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Программист Python (Middle)",
-        "vacancy_city": {
-            "city": null,
-            "street": null,
-            "building": null,
-            "lat": null,
-            "lng": null,
-            "description": null,
-            "raw": null,
-            "metro": {
-                "station_name": "Автозаводская",
-                "line_name": "Замоскворецкая",
-                "station_id": "2.2",
-                "line_id": "2",
-                "lat": 55.706634,
-                "lng": 37.657008
-            },
-            "metro_stations": [
-                {
-                    "station_name": "Автозаводская",
-                    "line_name": "Замоскворецкая",
-                    "station_id": "2.2",
-                    "line_id": "2",
-                    "lat": 55.706634,
-                    "lng": 37.657008
-                },
-                {
-                    "station_name": "Автозаводская",
-                    "line_name": "МЦК",
-                    "station_id": "95.530",
-                    "line_id": "95",
-                    "lat": 55.70631,
-                    "lng": 37.66314
-                }
-            ],
-            "id": "1085402"
-        },
-        "salary_from": 200000,
-        "salary_to": 0,
-        "total_salary": "200000 - 0",
-        "vacancy_responsibilities": "Разработка новой и поддержка старой функциональности продукта​: оптимизировать, дорабатывать, устранять баги, повышать производительность.",
-        "vacancy_url": "https://hh.ru/vacancy/92187784",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Python Engineer",
-        "vacancy_city": {
-            "city": "Нур-Султан (Астана)",
-            "street": "проспект Мангилик Ел",
-            "building": "55/22",
-            "lat": 51.088044,
-            "lng": 71.41328,
-            "description": null,
-            "raw": "Нур-Султан (Астана), проспект Мангилик Ел, 55/22",
-            "metro": null,
-            "metro_stations": [],
-            "id": "5966010"
-        },
-        "salary_from": 2500,
-        "salary_to": 0,
-        "total_salary": "2500 - 0",
-        "vacancy_responsibilities": "Заниматься проектированием архитектуры и разработкой новых сервисов. Выбирать наиболее оптимальные инструменты, алгоритмы, структуры данных и пути решения задач. ",
-        "vacancy_url": "https://hh.ru/vacancy/92150564",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Стажер Back-end разработчик (php, python, c#)",
-        "vacancy_city": null,
-        "salary_from": 15000,
-        "salary_to": 30000,
-        "total_salary": "15000 - 30000",
-        "vacancy_responsibilities": "Разработка на bitrix framework. Разработка API для мобильных приложений и веб-интерфейсов. Интеграция по API с внешними сервисами (банки, доставщики...",
-        "vacancy_url": "https://hh.ru/vacancy/89753482",
-        "platform": "HeadHunter"
-    },
-    {
         "vacancy_title": "Python Developer",
-        "vacancy_city": {
-            "city": "Ростов-на-Дону",
-            "street": "улица Города Волос",
-            "building": "6",
-            "lat": 47.22728,
-            "lng": 39.706057,
-            "description": null,
-            "raw": "Ростов-на-Дону, улица Города Волос, 6",
-            "metro": null,
-            "metro_stations": [],
-            "id": "2615324"
-        },
-        "salary_from": 60000,
-        "salary_to": 180000,
-        "total_salary": "60000 - 180000",
-        "vacancy_responsibilities": "Грамотный менеджмент, политика «открытых дверей» руководства. Фокус на развитие и обучение сотрудников с бюджетом более 500 000 рублей в год. ",
-        "vacancy_url": "https://hh.ru/vacancy/89222499",
+        "vacancy_city": "Город не указан",
+        "salary_from": 1000000,
+        "salary_to": 3000000,
+        "total_salary": "1000000 - 3000000",
+        "vacancy_responsibilities": "Collaborate with cross-functional teams to design, develop, and maintain the Trumo payment platform. Utilize your <highlighttext>Python</highlighttext> skills to build...",
+        "vacancy_url": "https://hh.ru/vacancy/92351262",
         "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Python developer",
-        "vacancy_city": {
-            "city": "Краснодар",
-            "street": "Северная улица",
-            "building": "405",
-            "lat": 45.037451,
-            "lng": 38.995678,
-            "description": null,
-            "raw": "Краснодар, Северная улица, 405",
-            "metro": null,
-            "metro_stations": [],
-            "id": "652260"
-        },
-        "salary_from": 0,
-        "salary_to": 130000,
-        "total_salary": "0 - 130000",
-        "vacancy_responsibilities": "Разработка модулей, компонентов, скриптов и API на <highlighttext>Python</highlighttext>.",
-        "vacancy_url": "https://hh.ru/vacancy/90345123",
+        "vacancy_title": "Программист Python",
+        "vacancy_city": "Город не указан",
+        "salary_from": 40000,
+        "salary_to": 80000,
+        "total_salary": "40000 - 80000",
+        "vacancy_responsibilities": "Разработка и поддержка веб-приложений на <highlighttext>Python</highlighttext>. - Участие в проектировании архитектуры приложений и баз данных. - Оптимизация производительности и масштабируемости веб...",
+        "vacancy_url": "https://hh.ru/vacancy/92089196",
         "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Senior Python-разработчик",
-        "vacancy_city": null,
-        "salary_from": 0,
-        "salary_to": 450000,
-        "total_salary": "0 - 450000",
-        "vacancy_responsibilities": "Разработка и развитие (улучшение производительности и надежности) внутренних продуктов компании — от небольших сервисов до высоконагруженных систем. Участие в проектировании архитектуры...",
-        "vacancy_url": "https://hh.ru/vacancy/92094795",
+        "vacancy_title": "Python разработчик",
+        "vacancy_city": "Город не указан",
+        "salary_from": 180000,
+        "salary_to": 230000,
+        "total_salary": "180000 - 230000",
+        "vacancy_responsibilities": "Задачи по разработке программных решений в web и мобильных приложениях на основании технических заданий, полученных от функциональных консультантов и в...",
+        "vacancy_url": "https://hh.ru/vacancy/92478871",
         "platform": "HeadHunter"
     },
     {
         "vacancy_title": "Senior Python разработчик",
-        "vacancy_city": null,
+        "vacancy_city": "Город не указан",
         "salary_from": 300000,
         "salary_to": 370000,
         "total_salary": "300000 - 370000",
@@ -1453,74 +670,88 @@
         "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Backend developer (Разработчик Python \\ PostgreSQL)",
-        "vacancy_city": {
-            "city": null,
-            "street": null,
-            "building": null,
-            "lat": 55.759999999987414,
-            "lng": 37.63999999999997,
-            "description": null,
-            "raw": "Москва,м. Автозаводская, Ослябинский переулок, 3",
-            "metro": null,
-            "metro_stations": [],
-            "id": "311228"
-        },
-        "salary_from": 180000,
-        "salary_to": 220000,
-        "total_salary": "180000 - 220000",
-        "vacancy_responsibilities": "Разработка серверной части (<highlighttext>Python</highlighttext>,FastAPI). Проектирование и разработка новой бизнес логики на уровне СУБД PostgreSQL \\ MS SQL. Оптимизация SQL-запросов. ",
-        "vacancy_url": "https://hh.ru/vacancy/91996121",
+        "vacancy_title": "Программист Python (Middle)",
+        "vacancy_city": null,
+        "salary_from": 200000,
+        "salary_to": 0,
+        "total_salary": "200000 - 0",
+        "vacancy_responsibilities": "Разработка новой и поддержка старой функциональности продукта​: оптимизировать, дорабатывать, устранять баги, повышать производительность.",
+        "vacancy_url": "https://hh.ru/vacancy/92187784",
         "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Backend developer (Python)",
-        "vacancy_city": {
-            "city": "Екатеринбург",
-            "street": "улица Карла Либкнехта",
-            "building": "22",
-            "lat": 56.840646,
-            "lng": 60.61218,
-            "description": null,
-            "raw": "Екатеринбург, улица Карла Либкнехта, 22",
-            "metro": {
-                "station_name": "Динамо",
-                "line_name": "Север-Юг",
-                "station_id": "48.265",
-                "line_id": "48",
-                "lat": 56.847818,
-                "lng": 60.599406
-            },
-            "metro_stations": [
-                {
-                    "station_name": "Динамо",
-                    "line_name": "Север-Юг",
-                    "station_id": "48.265",
-                    "line_id": "48",
-                    "lat": 56.847818,
-                    "lng": 60.599406
-                },
-                {
-                    "station_name": "Площадь 1905 года",
-                    "line_name": "Север-Юг",
-                    "station_id": "48.266",
-                    "line_id": "48",
-                    "lat": 56.837982,
-                    "lng": 60.59734
-                }
-            ],
-            "id": "1046901"
-        },
-        "salary_from": 0,
-        "salary_to": 150000,
-        "total_salary": "0 - 150000",
-        "vacancy_responsibilities": "Разрабатывать новые и поддерживать существующие приложения. Поддерживать и дорабатывать архитектуру на существующих проектах и предлагать новые решения. Реализовывать проекты с...",
-        "vacancy_url": "https://hh.ru/vacancy/91715687",
+        "vacancy_title": "QA Specialist: Auto&Python (Москва или Сербия)",
+        "vacancy_city": "Город не указан",
+        "salary_from": 150000,
+        "salary_to": 300000,
+        "total_salary": "150000 - 300000",
+        "vacancy_responsibilities": "Автоматическое тестирование модулей продукта (ручное — только на период изучения продукта) и составление тестовой документации. Развитие и поддержка существующей тестовой базы...",
+        "vacancy_url": "https://hh.ru/vacancy/91652170",
         "platform": "HeadHunter"
     },
     {
         "vacancy_title": "Разработчик Python",
-        "vacancy_city": null,
+        "vacancy_city": "Москва",
+        "salary_from": 75000,
+        "salary_to": 75000,
+        "total_salary": "75000 - 75000",
+        "vacancy_responsibilities": "Разработка и поддержка по внутренним проектам организации (автоматизация процессов). Работа по автоматизации через API-сервисы. Разработка функций сбора, обработки, хранения...",
+        "vacancy_url": "https://hh.ru/vacancy/91387348",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Python developer",
+        "vacancy_city": "Краснодар",
+        "salary_from": 0,
+        "salary_to": 130000,
+        "total_salary": "0 - 130000",
+        "vacancy_responsibilities": "Разработка модулей, компонентов, скриптов и API на <highlighttext>Python</highlighttext>.",
+        "vacancy_url": "https://hh.ru/vacancy/90345123",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Разработчик (Backend developer / Python)",
+        "vacancy_city": "Город не указан",
+        "salary_from": 100000,
+        "salary_to": 0,
+        "total_salary": "100000 - 0",
+        "vacancy_responsibilities": "<highlighttext>Python</highlighttext> на бэкенде, взаимодействие через GraphQL и REST API. SPA на Vue.js + Typescript на фронте и Quasar как библиотека...",
+        "vacancy_url": "https://hh.ru/vacancy/90812837",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Разработчик Python (FastAPI, MySQL, Clickhouse), удаленно",
+        "vacancy_city": "Город не указан",
+        "salary_from": 250000,
+        "salary_to": 0,
+        "total_salary": "250000 - 0",
+        "vacancy_responsibilities": "Собрать команду под проект. - Руководить командой проекта. - Оценка бюджета проекта. - Участвовать в создании крутых продуктов. - Проектировать реализацию новых процессов.",
+        "vacancy_url": "https://hh.ru/vacancy/92333181",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Стажер Back-end разработчик (php, python, c#)",
+        "vacancy_city": "Город не указан",
+        "salary_from": 15000,
+        "salary_to": 30000,
+        "total_salary": "15000 - 30000",
+        "vacancy_responsibilities": "Разработка на bitrix framework. Разработка API для мобильных приложений и веб-интерфейсов. Интеграция по API с внешними сервисами (банки, доставщики...",
+        "vacancy_url": "https://hh.ru/vacancy/89753482",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Blockchain / Python разработчик",
+        "vacancy_city": "Город не указан",
+        "salary_from": 150000,
+        "salary_to": 250000,
+        "total_salary": "150000 - 250000",
+        "vacancy_responsibilities": "Разработка и поддержка блокчейн-системы на <highlighttext>Python</highlighttext> с использованием фреймворков Django. - Написание смарт-контрактов на Solidity для различных блокчейнов, включая...",
+        "vacancy_url": "https://hh.ru/vacancy/91961502",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Разработчик Python",
+        "vacancy_city": "Город не указан",
         "salary_from": 0,
         "salary_to": 250000,
         "total_salary": "0 - 250000",
@@ -1530,7 +761,7 @@
     },
     {
         "vacancy_title": "Python (Django) Разработчик",
-        "vacancy_city": null,
+        "vacancy_city": "Город не указан",
         "salary_from": 100000,
         "salary_to": 250000,
         "total_salary": "100000 - 250000",
@@ -1539,19 +770,18 @@
         "platform": "HeadHunter"
     },
     {
+        "vacancy_title": "Python разработчик",
+        "vacancy_city": "Город не указан",
+        "salary_from": 0,
+        "salary_to": 280000,
+        "total_salary": "0 - 280000",
+        "vacancy_responsibilities": "Разработка ботов на <highlighttext>Python</highlighttext>. Симуляция работы приложений через HTTP-запросы. Создание микросервисов для взаимодействия.",
+        "vacancy_url": "https://hh.ru/vacancy/91721455",
+        "platform": "HeadHunter"
+    },
+    {
         "vacancy_title": "Python разработчик (Django)",
-        "vacancy_city": {
-            "city": "Рязань",
-            "street": "улица Маяковского",
-            "building": "1А",
-            "lat": 54.615204,
-            "lng": 39.752383,
-            "description": null,
-            "raw": "Рязань, улица Маяковского, 1А",
-            "metro": null,
-            "metro_stations": [],
-            "id": "843164"
-        },
+        "vacancy_city": "Рязань",
         "salary_from": 73500,
         "salary_to": 0,
         "total_salary": "73500 - 0",
@@ -1560,39 +790,18 @@
         "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Full Stack разработчик (Python)",
-        "vacancy_city": null,
-        "salary_from": 70000,
+        "vacancy_title": "Python Engineer",
+        "vacancy_city": "Нур-Султан (Астана)",
+        "salary_from": 2500,
         "salary_to": 0,
-        "total_salary": "70000 - 0",
-        "vacancy_responsibilities": "Full Stack разработка веб-приложений. Разработка серверной программной логики (backend, Django, Django REST Framework) и визуализации (frontend) составляющих web-приложений. ",
-        "vacancy_url": "https://hh.ru/vacancy/92002509",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Системный программист / разработчик Python",
-        "vacancy_city": null,
-        "salary_from": 200000,
-        "salary_to": 350000,
-        "total_salary": "200000 - 350000",
-        "vacancy_responsibilities": "Управлять задачами, командами, проектами, разработкой и внедрением усовершенствований. Отслеживать изменения, компоненты и версии. Настраивать собственные бизнес-процессы и автоматизировать деятельность. ",
-        "vacancy_url": "https://hh.ru/vacancy/92323149",
+        "total_salary": "2500 - 0",
+        "vacancy_responsibilities": "Заниматься проектированием архитектуры и разработкой новых сервисов. Выбирать наиболее оптимальные инструменты, алгоритмы, структуры данных и пути решения задач. ",
+        "vacancy_url": "https://hh.ru/vacancy/92150564",
         "platform": "HeadHunter"
     },
     {
         "vacancy_title": "Python разработчик в г. Сочи (Middle)",
-        "vacancy_city": {
-            "city": "Сочи",
-            "street": "микрорайон Новый Сочи, Политехническая улица",
-            "building": "62/1",
-            "lat": 43.613949,
-            "lng": 39.711348,
-            "description": null,
-            "raw": "Сочи, микрорайон Новый Сочи, Политехническая улица, 62/1",
-            "metro": null,
-            "metro_stations": [],
-            "id": "13107882"
-        },
+        "vacancy_city": "Сочи",
         "salary_from": 100000,
         "salary_to": 150000,
         "total_salary": "100000 - 150000",
@@ -1601,8 +810,18 @@
         "platform": "HeadHunter"
     },
     {
+        "vacancy_title": "Python разработчик",
+        "vacancy_city": "Город не указан",
+        "salary_from": 250000,
+        "salary_to": 300000,
+        "total_salary": "250000 - 300000",
+        "vacancy_responsibilities": "Разрабатывать и поддерживать микросервисы. Автоматизировать работу с Wildberries или Яндекс Маркетом (API).",
+        "vacancy_url": "https://hh.ru/vacancy/92467991",
+        "platform": "HeadHunter"
+    },
+    {
         "vacancy_title": "Python backend разработчик Middle+",
-        "vacancy_city": null,
+        "vacancy_city": "Город не указан",
         "salary_from": 120000,
         "salary_to": 0,
         "total_salary": "120000 - 0",
@@ -1611,163 +830,8 @@
         "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Python Developer",
-        "vacancy_city": null,
-        "salary_from": 1000000,
-        "salary_to": 3000000,
-        "total_salary": "1000000 - 3000000",
-        "vacancy_responsibilities": "Collaborate with cross-functional teams to design, develop, and maintain the Trumo payment platform. Utilize your <highlighttext>Python</highlighttext> skills to build...",
-        "vacancy_url": "https://hh.ru/vacancy/92351264",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Разработчик (Backend developer / Python)",
-        "vacancy_city": null,
-        "salary_from": 100000,
-        "salary_to": 0,
-        "total_salary": "100000 - 0",
-        "vacancy_responsibilities": "<highlighttext>Python</highlighttext> на бэкенде, взаимодействие через GraphQL и REST API. SPA на Vue.js + Typescript на фронте и Quasar как библиотека...",
-        "vacancy_url": "https://hh.ru/vacancy/90812837",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Python разработчик",
-        "vacancy_city": null,
-        "salary_from": 500000,
-        "salary_to": 0,
-        "total_salary": "500000 - 0",
-        "vacancy_responsibilities": "Разработка ПО на <highlighttext>Python</highlighttext> с использованием фреймворка django.",
-        "vacancy_url": "https://hh.ru/vacancy/91387271",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Junior Fullstack разработчик (php/python/js)",
-        "vacancy_city": {
-            "city": "Москва",
-            "street": "Кавказский бульвар",
-            "building": "59",
-            "lat": 55.628113,
-            "lng": 37.629906,
-            "description": null,
-            "raw": "Москва, Кавказский бульвар, 59",
-            "metro": {
-                "station_name": "Кантемировская",
-                "line_name": "Замоскворецкая",
-                "station_id": "2.42",
-                "line_id": "2",
-                "lat": 55.636107,
-                "lng": 37.656218
-            },
-            "metro_stations": [
-                {
-                    "station_name": "Кантемировская",
-                    "line_name": "Замоскворецкая",
-                    "station_id": "2.42",
-                    "line_id": "2",
-                    "lat": 55.636107,
-                    "lng": 37.656218
-                }
-            ],
-            "id": "3064321"
-        },
-        "salary_from": 60000,
-        "salary_to": 80000,
-        "total_salary": "60000 - 80000",
-        "vacancy_responsibilities": "Поддержание и развитие внутренней MES/ERP системы на основе web. Участие в написание новых web сервисов.",
-        "vacancy_url": "https://hh.ru/vacancy/92066990",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Blockchain / Python разработчик",
-        "vacancy_city": null,
-        "salary_from": 150000,
-        "salary_to": 250000,
-        "total_salary": "150000 - 250000",
-        "vacancy_responsibilities": "Разработка и поддержка блокчейн-системы на <highlighttext>Python</highlighttext> с использованием фреймворков Django. - Написание смарт-контрактов на Solidity для различных блокчейнов, включая...",
-        "vacancy_url": "https://hh.ru/vacancy/91961502",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Специалист по машинному обучению (python)",
-        "vacancy_city": {
-            "city": "Москва",
-            "street": "4й Лихачевский переулок",
-            "building": "15",
-            "lat": 55.85817,
-            "lng": 37.529394,
-            "description": null,
-            "raw": "Москва, 4й Лихачевский переулок, 15",
-            "metro": null,
-            "metro_stations": [],
-            "id": "44688"
-        },
-        "salary_from": 60000,
-        "salary_to": 0,
-        "total_salary": "60000 - 0",
-        "vacancy_responsibilities": "Разработка и внедрения методов машинного обучения, включая нейросети в прикладные продукты. Интересные и нестандартные задачи широкого спектра: анализ текстов, изображений...",
-        "vacancy_url": "https://hh.ru/vacancy/91774863",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Python-developer",
-        "vacancy_city": null,
-        "salary_from": 100000,
-        "salary_to": 215000,
-        "total_salary": "100000 - 215000",
-        "vacancy_responsibilities": "Разработка высоконагруженного финансового приложения. - Реализация сервиса доставки. - Развитие и сопровождение высоконагруженного приложения фиксации активности пользователей.",
-        "vacancy_url": "https://hh.ru/vacancy/91261236",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Python/Selenium Web Scraper/Web Parsing Developer",
-        "vacancy_city": null,
-        "salary_from": 1000,
-        "salary_to": 0,
-        "total_salary": "1000 - 0",
-        "vacancy_responsibilities": "Устное собеседование. Техническое собеседование. Тестовое задание. Оффер / Обратная связь.",
-        "vacancy_url": "https://hh.ru/vacancy/91316459",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Python R&D Engineer (junior+/middle)",
-        "vacancy_city": null,
-        "salary_from": 80000,
-        "salary_to": 180000,
-        "total_salary": "80000 - 180000",
-        "vacancy_responsibilities": "Грамотный менеджмент, политика «открытых дверей» руководства, культура эффективности и взаимопомощи. Фокус на развитие и обучение сотрудников с бюджетом более 500...",
-        "vacancy_url": "https://hh.ru/vacancy/92134557",
-        "platform": "HeadHunter"
-    },
-    {
         "vacancy_title": "Middle Backend Разработчик (Python)",
-        "vacancy_city": {
-            "city": "Москва",
-            "street": "Октябрьская улица",
-            "building": "72",
-            "lat": 55.799148,
-            "lng": 37.613135,
-            "description": null,
-            "raw": "Москва, Октябрьская улица, 72",
-            "metro": {
-                "station_name": "Марьина Роща",
-                "line_name": "Люблинско-Дмитровская",
-                "station_id": "10.185",
-                "line_id": "10",
-                "lat": 55.793723,
-                "lng": 37.61618
-            },
-            "metro_stations": [
-                {
-                    "station_name": "Марьина Роща",
-                    "line_name": "Люблинско-Дмитровская",
-                    "station_id": "10.185",
-                    "line_id": "10",
-                    "lat": 55.793723,
-                    "lng": 37.61618
-                }
-            ],
-            "id": "142181"
-        },
+        "vacancy_city": "Москва",
         "salary_from": 220000,
         "salary_to": 250000,
         "total_salary": "220000 - 250000",
@@ -1777,69 +841,27 @@
     },
     {
         "vacancy_title": "Python разработчик",
-        "vacancy_city": null,
+        "vacancy_city": "Город не указан",
+        "salary_from": 250000,
+        "salary_to": 0,
+        "total_salary": "250000 - 0",
+        "vacancy_responsibilities": "Основная задача: улучшить качество adult контента с помощью искусственного интеллекта. Backend: <highlighttext>Python</highlighttext>. Frontend: JS, React, Tailwind CSS. Разработка и поддержка...",
+        "vacancy_url": "https://hh.ru/vacancy/92483943",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Backend developer (Python)",
+        "vacancy_city": "Екатеринбург",
         "salary_from": 0,
-        "salary_to": 280000,
-        "total_salary": "0 - 280000",
-        "vacancy_responsibilities": "Разработка ботов на <highlighttext>Python</highlighttext>. Симуляция работы приложений через HTTP-запросы. Создание микросервисов для взаимодействия.",
-        "vacancy_url": "https://hh.ru/vacancy/91721455",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Разработчик Python",
-        "vacancy_city": {
-            "city": "Томск",
-            "street": "улица Никитина",
-            "building": "10",
-            "lat": 56.477835,
-            "lng": 84.962812,
-            "description": null,
-            "raw": "Томск, улица Никитина, 10",
-            "metro": null,
-            "metro_stations": [],
-            "id": "4677657"
-        },
-        "salary_from": 80000,
         "salary_to": 150000,
-        "total_salary": "80000 - 150000",
-        "vacancy_responsibilities": "Пишет простой и поддерживаемый код.",
-        "vacancy_url": "https://hh.ru/vacancy/90599236",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "QA Specialist: Auto&Python (Москва или Сербия)",
-        "vacancy_city": null,
-        "salary_from": 150000,
-        "salary_to": 300000,
-        "total_salary": "150000 - 300000",
-        "vacancy_responsibilities": "Автоматическое тестирование модулей продукта (ручное — только на период изучения продукта) и составление тестовой документации. Развитие и поддержка существующей тестовой базы...",
-        "vacancy_url": "https://hh.ru/vacancy/91652170",
-        "platform": "HeadHunter"
-    },
-    {
-        "vacancy_title": "Python-developer",
-        "vacancy_city": {
-            "city": "Екатеринбург",
-            "street": "улица Горького",
-            "building": "24",
-            "lat": 56.831645,
-            "lng": 60.607769,
-            "description": null,
-            "raw": "Екатеринбург, улица Горького, 24",
-            "metro": null,
-            "metro_stations": [],
-            "id": "5077285"
-        },
-        "salary_from": 150000,
-        "salary_to": 220000,
-        "total_salary": "150000 - 220000",
-        "vacancy_responsibilities": null,
-        "vacancy_url": "https://hh.ru/vacancy/89957471",
+        "total_salary": "0 - 150000",
+        "vacancy_responsibilities": "Разрабатывать новые и поддерживать существующие приложения. Поддерживать и дорабатывать архитектуру на существующих проектах и предлагать новые решения. Реализовывать проекты с...",
+        "vacancy_url": "https://hh.ru/vacancy/91715687",
         "platform": "HeadHunter"
     },
     {
         "vacancy_title": "Python/Go разработчик",
-        "vacancy_city": null,
+        "vacancy_city": "Город не указан",
         "salary_from": 90000,
         "salary_to": 140000,
         "total_salary": "90000 - 140000",
@@ -1848,38 +870,138 @@
         "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Python-разработчик",
-        "vacancy_city": null,
-        "salary_from": 0,
-        "salary_to": 450000,
-        "total_salary": "0 - 450000",
-        "vacancy_responsibilities": "Делаем много проектов на asyncio, aiohttp, fastapi. Есть возможность работать с kubernetes, consul, vault. Реже используем django и flask. ",
-        "vacancy_url": "https://hh.ru/vacancy/91987693",
+        "vacancy_title": "Junior Fullstack разработчик (php/python/js)",
+        "vacancy_city": "Москва",
+        "salary_from": 60000,
+        "salary_to": 80000,
+        "total_salary": "60000 - 80000",
+        "vacancy_responsibilities": "Поддержание и развитие внутренней MES/ERP системы на основе web. Участие в написание новых web сервисов.",
+        "vacancy_url": "https://hh.ru/vacancy/92066990",
         "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Старший аналитик данных в CRM (Отдел анализа эффективности некредитного направления)",
-        "vacancy_city": "Москва, Пресненская набережная, 10",
-        "salary_from": 0,
+        "vacancy_title": "Full Stack разработчик (Python)",
+        "vacancy_city": "Город не указан",
+        "salary_from": 70000,
         "salary_to": 0,
-        "total_salary": "0 - 0",
-        "vacancy_responsibilities": "Обязанности:\n• аналитическая поддержка бизнес-подразделения, развитие и накопление экспертизы в области аналитики, статистики;\n• анализ эффективности работы CRM, оценка кампаний, подведение итогов пилотов;\n• участие в крупных аналитических проектах розничного CRM;\n• поиск решения проблем: увеличения отклика на предложения CRM, расширения охвата базы клиентов предложениями, повышения эффективности процессов;\n• проведение оценки клиентской базы: анализ жизненного цикла клиентов, прогнозирование поведения, построение клиентского портрета, взаимодействие с data scientists в рамках задач по анализу данных и моделированию;\n• подготовка бизнес рекомендаций в рамках активностей департамента по результатам проведенных исследований, визуализация результатов исследований;\n• сопровождение текущей отчетности и создание новой, разработка dashboard, инструментария для контроля деятельности CRM;\n• разработка инструментария для контроля деятельности CRM.\nТребования:\n• высшее образование (математика, физмат, экономика, статистика);\n• опыт работы в крупной компании (банки, телеком, retail) в подразделении аналитики от 1 года;\n• отличное знание SQL (написание сложных запросов, знание оконных функций) - обязательно;\n• уверенный пользователь MS Office (Excel, P.Point);\n• опыт использования инструментов BI будет плюсом;\n• знание python для целей аналитики данных будет плюсом;\n• опыт анализа больших объемов данных;\n• наши аналитики, как правило, используют SQL, но мы не ограничиваем специалистов в выборе инструментария;\n• аналитический склад ума;\n• умением структурированно излагать мысли, презентовать результаты своей работы.\nУсловия:\n• трудоустройство согласно Законодательству;\n• конкурентная заработная плата;\n• профессиональное обучение и развитие;\n• добровольное медицинское страхование, льготные условия кредитования;\n• корпоративная пенсионная программа, материальная помощь;\n• спортивная жизнь и корпоративные мероприятия;\n• возможность построить карьеру в ведущем банке России.",
-        "vacancy_url": "https://www.superjob.ru/vakansii/starshij-analitik-dannyh-v-crm-46759846.html",
-        "platform": "SuperJob"
+        "total_salary": "70000 - 0",
+        "vacancy_responsibilities": "Full Stack разработка веб-приложений. Разработка серверной программной логики (backend, Django, Django REST Framework) и визуализации (frontend) составляющих web-приложений. ",
+        "vacancy_url": "https://hh.ru/vacancy/92002509",
+        "platform": "HeadHunter"
     },
     {
-        "vacancy_title": "Аналитик данных / Data Analyst (Стрим Сквозные бизнес-компоненты)",
-        "vacancy_city": "Москва, Пресненская набережная, 10с1",
-        "salary_from": 0,
+        "vacancy_title": "Python Developer",
+        "vacancy_city": "Ростов-на-Дону",
+        "salary_from": 60000,
+        "salary_to": 180000,
+        "total_salary": "60000 - 180000",
+        "vacancy_responsibilities": "Грамотный менеджмент, политика «открытых дверей» руководства. Фокус на развитие и обучение сотрудников с бюджетом более 500 000 рублей в год. ",
+        "vacancy_url": "https://hh.ru/vacancy/89222499",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Python разработчик",
+        "vacancy_city": "Город не указан",
+        "salary_from": 500000,
         "salary_to": 0,
-        "total_salary": "0 - 0",
-        "vacancy_responsibilities": "Вместе мы будем прорабатывать гипотезы, направленные на увеличение доходов и сокращения расходов по нотификации, увеличивать MAU и DAU ВТБ Онлайн, сокращать количество жалоб и много чего еще для улучшения клиентского опыта в мобильном приложении и интернет-банке.\nОбязанности:\n• создавать, развивать и поддерживать регулярную отчетности для топ-менеджмента;\n• создавать Ad-hoc аналитические отчеты для проверки продуктовых гипотез по запросу руководства;\n• генерировать и проверять статистические гипотезы;\n• определять ключевые метрики по новым фичам, прогнозировать как они увеличатся после запуска фичи и следить за их выполнением;\n• создавать системы аналитических бордов по клиентским и продуктовым метрикам в BI системах.\nТребования:\n• знание SQL (сложные запросы, оконные функции);\n• знание python (библиотеки для аналитиков, pyspark);\n• опыт построения бордов (powerbi, qlick sense);\n• знание основных продуктовых метрик и как их считать;\n• будет плюсом опыт работы в Yandex Metrica и AppMetricа.\nУсловия:\n• трудоустройство согласно Законодательству;\n• конкурентная заработная плата;\n• профессиональное обучение и развитие;\n• добровольное медицинское страхование, льготные условия кредитования;\n• корпоративная пенсионная программа, материальная помощь;\n• спортивная жизнь и корпоративные мероприятия;\n• возможность построить карьеру в ведущем банке России.",
-        "vacancy_url": "https://www.superjob.ru/vakansii/analitik-dannyh-46785187.html",
-        "platform": "SuperJob"
+        "total_salary": "500000 - 0",
+        "vacancy_responsibilities": "Разработка ПО на <highlighttext>Python</highlighttext> с использованием фреймворка django.",
+        "vacancy_url": "https://hh.ru/vacancy/91387271",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Программист Python",
+        "vacancy_city": "Уфа",
+        "salary_from": 125000,
+        "salary_to": 220000,
+        "total_salary": "125000 - 220000",
+        "vacancy_responsibilities": null,
+        "vacancy_url": "https://hh.ru/vacancy/91627223",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Backend developer (Разработчик Python \\ PostgreSQL)",
+        "vacancy_city": null,
+        "salary_from": 180000,
+        "salary_to": 220000,
+        "total_salary": "180000 - 220000",
+        "vacancy_responsibilities": "Разработка серверной части (<highlighttext>Python</highlighttext>,FastAPI). Проектирование и разработка новой бизнес логики на уровне СУБД PostgreSQL \\ MS SQL. Оптимизация SQL-запросов. ",
+        "vacancy_url": "https://hh.ru/vacancy/91996121",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Специалист по машинному обучению (python)",
+        "vacancy_city": "Москва",
+        "salary_from": 60000,
+        "salary_to": 0,
+        "total_salary": "60000 - 0",
+        "vacancy_responsibilities": "Разработка и внедрения методов машинного обучения, включая нейросети в прикладные продукты. Интересные и нестандартные задачи широкого спектра: анализ текстов, изображений...",
+        "vacancy_url": "https://hh.ru/vacancy/91774863",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Python R&D Engineer (junior+/middle)",
+        "vacancy_city": "Город не указан",
+        "salary_from": 80000,
+        "salary_to": 180000,
+        "total_salary": "80000 - 180000",
+        "vacancy_responsibilities": "Грамотный менеджмент, политика «открытых дверей» руководства, культура эффективности и взаимопомощи. Фокус на развитие и обучение сотрудников с бюджетом более 500...",
+        "vacancy_url": "https://hh.ru/vacancy/92134557",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Python-developer",
+        "vacancy_city": "Город не указан",
+        "salary_from": 100000,
+        "salary_to": 215000,
+        "total_salary": "100000 - 215000",
+        "vacancy_responsibilities": "Разработка высоконагруженного финансового приложения. - Реализация сервиса доставки. - Развитие и сопровождение высоконагруженного приложения фиксации активности пользователей.",
+        "vacancy_url": "https://hh.ru/vacancy/91261236",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Разработчик на Python",
+        "vacancy_city": "Омск",
+        "salary_from": 70000,
+        "salary_to": 0,
+        "total_salary": "70000 - 0",
+        "vacancy_responsibilities": "поддержка существующих бекэнд-сервисов и написание новых на языке <highlighttext>Python</highlighttext>. -покрытие кода юнит-тестами, рефакторинг, оптимизация кода и взаимодействия с...",
+        "vacancy_url": "https://hh.ru/vacancy/90310055",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Python Developer",
+        "vacancy_city": "Город не указан",
+        "salary_from": 1000000,
+        "salary_to": 3000000,
+        "total_salary": "1000000 - 3000000",
+        "vacancy_responsibilities": "Collaborate with cross-functional teams to design, develop, and maintain the Trumo payment platform. Utilize your <highlighttext>Python</highlighttext> skills to build...",
+        "vacancy_url": "https://hh.ru/vacancy/92351264",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Python-developer",
+        "vacancy_city": "Екатеринбург",
+        "salary_from": 150000,
+        "salary_to": 220000,
+        "total_salary": "150000 - 220000",
+        "vacancy_responsibilities": null,
+        "vacancy_url": "https://hh.ru/vacancy/89957471",
+        "platform": "HeadHunter"
+    },
+    {
+        "vacancy_title": "Python Backend Developer (Middle, Remote)",
+        "vacancy_city": "Москва",
+        "salary_from": 0,
+        "salary_to": 195000,
+        "total_salary": "0 - 195000",
+        "vacancy_responsibilities": "Разработка подсистемы скоринга заемщиков: создание и доработка риск-факторов, анализ предоставленных документов, доработка интеграций с внешними источниками и т.д. ",
+        "vacancy_url": "https://hh.ru/vacancy/90544605",
+        "platform": "HeadHunter"
     },
     {
         "vacancy_title": "Сетевой инженер",
-        "vacancy_city": "Санкт-Петербург, проспект Стачек, 47",
+        "vacancy_city": "Санкт-Петербург",
         "salary_from": 70000,
         "salary_to": 100000,
         "total_salary": "70000 - 100000",
@@ -1889,7 +1011,7 @@
     },
     {
         "vacancy_title": "Маркетинговый аналитик",
-        "vacancy_city": null,
+        "vacancy_city": "Москва",
         "salary_from": 0,
         "salary_to": 0,
         "total_salary": "0 - 0",
@@ -1899,7 +1021,7 @@
     },
     {
         "vacancy_title": "Специалист по информационной безопасности",
-        "vacancy_city": null,
+        "vacancy_city": "Обнинск",
         "salary_from": 60000,
         "salary_to": 70000,
         "total_salary": "60000 - 70000",
@@ -1909,7 +1031,7 @@
     },
     {
         "vacancy_title": "Эксперт по управлению сетями связи",
-        "vacancy_city": null,
+        "vacancy_city": "Краснодар",
         "salary_from": 100000,
         "salary_to": 130000,
         "total_salary": "100000 - 130000",
@@ -1919,7 +1041,7 @@
     },
     {
         "vacancy_title": "Педагог дополнительного образования, руководитель центра цифрового образования (ИнфинІТи)",
-        "vacancy_city": "Санкт-Петербург, Южное шоссе, 55к7",
+        "vacancy_city": "Санкт-Петербург",
         "salary_from": 40000,
         "salary_to": 0,
         "total_salary": "40000 - 0",
@@ -1929,7 +1051,7 @@
     },
     {
         "vacancy_title": "Преподаватель программирования, веб-разработки",
-        "vacancy_city": "Волгоград, микрорайон Жилгородок, Кутузовская улица, 5",
+        "vacancy_city": "Волгоград",
         "salary_from": 40000,
         "salary_to": 0,
         "total_salary": "40000 - 0",
@@ -1939,7 +1061,7 @@
     },
     {
         "vacancy_title": "Программист",
-        "vacancy_city": "Московская область, Коломна",
+        "vacancy_city": "Коломна",
         "salary_from": 60000,
         "salary_to": 0,
         "total_salary": "60000 - 0",
@@ -1949,7 +1071,7 @@
     },
     {
         "vacancy_title": "Учитель по программированию",
-        "vacancy_city": "Москва, Зеленоград, к841",
+        "vacancy_city": "Андреевка",
         "salary_from": 0,
         "salary_to": 60000,
         "total_salary": "0 - 60000",
@@ -1959,7 +1081,7 @@
     },
     {
         "vacancy_title": "Системный инженер",
-        "vacancy_city": "Москва, Нагорная улица, 4А",
+        "vacancy_city": "Москва",
         "salary_from": 170000,
         "salary_to": 170000,
         "total_salary": "170000 - 170000",
@@ -1969,7 +1091,7 @@
     },
     {
         "vacancy_title": "Преподаватель по программированию",
-        "vacancy_city": "Республика Башкортостан, Уфа, Кавказская улица, 6/9",
+        "vacancy_city": "Уфа",
         "salary_from": 1000,
         "salary_to": 1500,
         "total_salary": "1000 - 1500",
@@ -1979,7 +1101,7 @@
     },
     {
         "vacancy_title": "Инженер-программист",
-        "vacancy_city": "Волгоградская область, Волжский, проспект Металлургов, 6В",
+        "vacancy_city": "Волжский",
         "salary_from": 50000,
         "salary_to": 0,
         "total_salary": "50000 - 0",
@@ -1989,7 +1111,7 @@
     },
     {
         "vacancy_title": "Инженер MQ",
-        "vacancy_city": null,
+        "vacancy_city": "Киров (Калужская область)",
         "salary_from": 125000,
         "salary_to": 0,
         "total_salary": "125000 - 0",
@@ -1999,7 +1121,7 @@
     },
     {
         "vacancy_title": "Системный администратор Linux",
-        "vacancy_city": "Владимир, Студенческая улица, 5А",
+        "vacancy_city": "Владимир",
         "salary_from": 0,
         "salary_to": 69000,
         "total_salary": "0 - 69000",
@@ -2009,7 +1131,7 @@
     },
     {
         "vacancy_title": "Аналитик в отдел маркетинга",
-        "vacancy_city": null,
+        "vacancy_city": "Санкт-Петербург",
         "salary_from": 100000,
         "salary_to": 130000,
         "total_salary": "100000 - 130000",
@@ -2019,7 +1141,7 @@
     },
     {
         "vacancy_title": "Аналитик",
-        "vacancy_city": "Республика Саха (Якутия), Алданский муниципальный район, посёлок Нижний Куранах, Строительная улица, 14",
+        "vacancy_city": "Санкт-Петербург",
         "salary_from": 0,
         "salary_to": 0,
         "total_salary": "0 - 0",
@@ -2029,7 +1151,7 @@
     },
     {
         "vacancy_title": "Педагог дополнительного образования (АЭРО квантум)",
-        "vacancy_city": "Псков, Октябрьский проспект, 50к2",
+        "vacancy_city": "Псков",
         "salary_from": 30000,
         "salary_to": 0,
         "total_salary": "30000 - 0",
@@ -2039,7 +1161,7 @@
     },
     {
         "vacancy_title": "Campaign Manager / Менеджер кампании",
-        "vacancy_city": null,
+        "vacancy_city": "Москва",
         "salary_from": 220000,
         "salary_to": 0,
         "total_salary": "220000 - 0",
@@ -2049,7 +1171,7 @@
     },
     {
         "vacancy_title": "Учитель информатики",
-        "vacancy_city": null,
+        "vacancy_city": "Москва",
         "salary_from": 90000,
         "salary_to": 0,
         "total_salary": "90000 - 0",
@@ -2059,7 +1181,7 @@
     },
     {
         "vacancy_title": "DevOps Team Lead",
-        "vacancy_city": "Нижний Новгород, Мотальный переулок, 8",
+        "vacancy_city": "Нижний Новгород",
         "salary_from": 0,
         "salary_to": 0,
         "total_salary": "0 - 0",
@@ -2069,7 +1191,7 @@
     },
     {
         "vacancy_title": "Начальник сектора",
-        "vacancy_city": "Самара, Московское шоссе, 270В",
+        "vacancy_city": "Самара",
         "salary_from": 0,
         "salary_to": 0,
         "total_salary": "0 - 0",
@@ -2079,7 +1201,7 @@
     },
     {
         "vacancy_title": "Преподаватель программирования",
-        "vacancy_city": "Московская область, Одинцово, Садовая улица, 3Б",
+        "vacancy_city": "Одинцово",
         "salary_from": 65000,
         "salary_to": 95000,
         "total_salary": "65000 - 95000",
@@ -2089,7 +1211,7 @@
     },
     {
         "vacancy_title": "Системный администратор",
-        "vacancy_city": "Волгоград, проспект имени В.И. Ленина",
+        "vacancy_city": "Волгоград",
         "salary_from": 25000,
         "salary_to": 30000,
         "total_salary": "25000 - 30000",
@@ -2098,18 +1220,18 @@
         "platform": "SuperJob"
     },
     {
-        "vacancy_title": "DevOps-инженер",
-        "vacancy_city": null,
+        "vacancy_title": "Продуктовый аналитик",
+        "vacancy_city": "Москва",
         "salary_from": 0,
         "salary_to": 0,
         "total_salary": "0 - 0",
-        "vacancy_responsibilities": "Мы ожидаем от кандидата опыт:\n• Опыт DevOps от 3-х лет.\n• Администрирования Linux.\n• Администрирования Kubernetes.\n• Настройки и эксплуатации CI/CD.\n• Эксплуатации и отладки СУБД (MySQL/MariaDB, Postgres, ClickHouse, Redis).\n• Программирования (скрипты Bash/PHP/Python/Go).\n• Настройки и эксплуатации web-проектов.\n• Использования и настройки систем мониторинга.\nЧем предстоит заниматься:\n• Управлять мониторингом zabbix, grafana.\n• Реагировать на инциденты, не теряя присутствия духа.\n• Поддерживать актуальный план восстановления в случае сбоев.\n• Находить узкие места в архитектуре проекта и приложений.\n• Рулить конфигурацией сервисов nginx, mariadb, clickhouse, apache, rabbitmq и других.\n• Писать плейбуки и роли для ansible для конфигурации и деплоя.\n• Контейнеризировать новые сервисы и поддерживать старые.\n• Поддерживать стороннее ПО (sentry, bitbucket, teamcity итд).\n• Рулить процессом continuous integration и deployment.\n• Описывать конфигурацию новых сервисов на Jsonnet.\n• Администрировать Kubernetes.\nМы используем в работе свой дата-центр, пару сотен серверов, CentOs/Virtuozzo, Git, Nginx, Apache, NodeJS, Bash/Sh, PHP, Python, Rust, Go, MariaDB/MySql, PostgreSQL, Redis, Sphinx, RabbitMQ, Memcache, ClickHouse, ELK, Graphite/Grafana, Zabbix, TeamCity, Jenkins, Docker, Kubernetes, Ansible, Nexus, Vault, Atlassian Jira/Confluence/BitBucket. \nСвоему будущему коллеге мы предлагаем:\n• Работу в одном из самых быстрорастущих рынков - HRTech.\n• Высокую инженерную культуру.\n• Непрерывное обучение и профессиональное развитие внутри компании.\n• Возможность стать частью сплоченной команды, любящей свое дело.\n• Регулярную обратную связь от наставников и руководителей.\n• Официальную заработную плату.\n• ДМС после прохождения испытательного срока.\n• Современный офис в 10 минутах пешей прогулки от станций метро Пушкинская/Маяковская/Чеховская/Новослободская.\n• Спортивный уголок.\n• Комфортную зону отдыха.\n• Кофе-поинты с вкуснейшим кофе и вендинговым аппаратом.\n• Оборудованное просторное место для питания.\n• Оплату проезда общественным транспортом.",
-        "vacancy_url": "https://www.superjob.ru/vakansii/devops-inzhener-48366477.html",
+        "vacancy_responsibilities": "Вам предстоит:\n• Проверять и генерировать гипотезы в плотной связке с менеджерами продукта.\n• Делать мониторинг основных метрик продукта: дашборды и алертинг.\n\n• Если произойдет значимое изменение метрики продукта, вместе с менеджерами продукта искать причины изменений. \n• Выстраивать совместную эффективную работу с продуктовым юнитом. \n• Тестировать гипотезы по улучшению метрик, проводить А/Б тесты и интерпретировать их результаты.\n• Проектировать разметку событий аналитики.\n• Предоставление аналитической информации по запросам сотрудников компании.\nОт своего будущего коллеги мы ждем:\n• Опыт работы в любой BI-системе (у нас Tableau), Яндекс.Метрике и Excel.\n• Знание SQL: навыки написания сложных запросов, знание оконных функций (у нас ClickHouse).\n• Знание Python и его библиотек (Pandas, NumPy, SciPy). \n• Опыт тестирования продуктовых гипотез (А/Б тесты).\n• Опыт разметки событий аналитики.\nСвоему будущему коллеге мы предлагаем:\n• Работу в одном из самых быстрорастущих рынков - HRTech.\n• Высокую инженерную культуру.\n• Непрерывное обучение и профессиональное развитие внутри компании.\n• Возможность стать частью сплоченной команды, любящей свое дело.\n• Регулярную обратную связь от наставников и руководителей.\n• Официальную заработную плату.\n• ДМС после прохождения испытательного срока.\n• Современный офис в 10 минутах пешей прогулки от станций метро Пушкинская/Маяковская/Чеховская/Новослободская.\n• Спортивный уголок.\n• Комфортную зону отдыха.\n• Кофе-поинты с вкуснейшим кофе и вендинговым аппаратом.\n• Оборудованное просторное место для питания.\n• Оплату проезда общественным транспортом.",
+        "vacancy_url": "https://www.superjob.ru/vakansii/produktovyj-analitik-48295049.html",
         "platform": "SuperJob"
     },
     {
         "vacancy_title": "Ведущий инженер по автоматизированным системам управления производством",
-        "vacancy_city": "Забайкальский край",
+        "vacancy_city": "Норильск",
         "salary_from": 0,
         "salary_to": 0,
         "total_salary": "0 - 0",
@@ -2118,8 +1240,18 @@
         "platform": "SuperJob"
     },
     {
+        "vacancy_title": "Ведущий инженер по автоматизированным системам управления производством",
+        "vacancy_city": "Иркутск",
+        "salary_from": 0,
+        "salary_to": 0,
+        "total_salary": "0 - 0",
+        "vacancy_responsibilities": "Обязанности:\n• Выполнение работ по организации производства работ программно техническим комплексом \n• Организация подготовки технических заданий на создание средств автоматизации и согласование оборудования \n• Организация работы по монтажу, испытаниям, наладке и приему в эксплуатацию объектов автоматизации и механизации, контроль за их правильным ведением \n• Осуществление контроля наличия средств измерений, инструмента и приспособлений на участке на соответствие установленным нормам поверки и испытаний \n• Осуществление технической приёмки вновь поступающих на предприятие средств автоматизации \n• Подготовка заключений по результатам проверки работоспособности оборудования \n• Участие в разработке и согласовании стандартов и других нормативных документов по вопросам автоматизации, метрологии и стандартизации \n• Составление отчетов о выполнении планов работ.\nТребования:\n• Образование: высшее\n• Знание ПК: уверенный пользователь Корпоративное ПО SAP, Tessa, 1C, 1C документооборот, 1C МТО. Желательно: 1C ЗУП, Офисное ПО Word, Excel, PowerPoint, Компас 3D, sPlan, MathCad, Visio, AutoCad Языки гипертекстовой разметки HTML, CSS, XML Языки программирования PHP, МЭК 61131-3 (LAD, ST, FBD), SQL, Python, PHP Знание специализированных программ CodeSYS, TIA Portal \n• Успешный опыт работы на аналогичной должности от 2-х лет (на золотоизвлекательной фабрике)\nУсловия:\n• Место работы: АО \"Ново-Широкинский рудник\", Забайкальский край\n• Все гарантированные действующим трудовым законодательством РФ льготы и надбавки \n• Удобный график работы: 1,5 месяца вахты/1,5 месяца межвахтового отдыха \n• Официальное трудоустройство, оплата межвахтового отдыха \n• Конкурентоспособная заработная плата, премии по результатам работы \n• Компенсация проезда до места работы и обратно \n• Проживание в вахтовом поселке: столовая, медицинский пункт, магазин, спортзал/спортплощадка, WI-FI и мобильный интернет, прачечная, зоны отдыха \n• Высокие стандарты безопасности\n• Профессиональное обучение и развитие \n• Работа в команде лидеров отрасли, владеющих лучшими производственными и управленческими практиками \n• Возможность реализовать свой потенциал и построить карьеру",
+        "vacancy_url": "https://irkutsk.superjob.ru/vakansii/veduschij-inzhener-po-avtomatizirovannym-sistemam-upravleniya-proizvodstvom-48375211.html",
+        "platform": "SuperJob"
+    },
+    {
         "vacancy_title": "Биостатистик / Data scientist (тематика онкология)",
-        "vacancy_city": "Москва, 1-й Волоколамский проезд, 10",
+        "vacancy_city": "Москва",
         "salary_from": 0,
         "salary_to": 0,
         "total_salary": "0 - 0",
@@ -2129,7 +1261,7 @@
     },
     {
         "vacancy_title": "Web-разработчик (backend)",
-        "vacancy_city": "Санкт-Петербург, Левашовский проспект, 15",
+        "vacancy_city": "Санкт-Петербург",
         "salary_from": 100000,
         "salary_to": 0,
         "total_salary": "100000 - 0",
@@ -2139,7 +1271,7 @@
     },
     {
         "vacancy_title": "Инженер-радиоэлектронщик 1 категории",
-        "vacancy_city": "Москва, улица Героев Панфиловцев, 10",
+        "vacancy_city": "Москва",
         "salary_from": 100000,
         "salary_to": 0,
         "total_salary": "100000 - 0",
@@ -2149,7 +1281,7 @@
     },
     {
         "vacancy_title": "Ведущий инженер",
-        "vacancy_city": "Санкт-Петербург, 21-я линия Васильевского острова, 2-4/45",
+        "vacancy_city": "Санкт-Петербург",
         "salary_from": 60000,
         "salary_to": 0,
         "total_salary": "60000 - 0",
@@ -2159,7 +1291,7 @@
     },
     {
         "vacancy_title": "Программист Linux",
-        "vacancy_city": null,
+        "vacancy_city": "Москва",
         "salary_from": 100000,
         "salary_to": 500000,
         "total_salary": "100000 - 500000",
@@ -2168,28 +1300,38 @@
         "platform": "SuperJob"
     },
     {
-        "vacancy_title": "Customer Journey Expert в команду Real-time offering",
-        "vacancy_city": "Москва, Пресненская набережная, 10с1",
+        "vacancy_title": "Продуктовый web-аналитик (Стрим дебетовые карты и счета)",
+        "vacancy_city": "Москва",
         "salary_from": 0,
         "salary_to": 0,
         "total_salary": "0 - 0",
-        "vacancy_responsibilities": "Обязанности:\n• проработка клиентских путей для формирования новых гипотез по улучшению поведения сегментов и увеличению эффективности коммуникаций;\n• сегментация клиентской базы, построение алгоритмов сегментации клиентской базы и формирование требований к данным;\n• регулярный сбор отчетности, бизнес анализ, оценка и прогнозирование эффектов от маркетинговых инициатив;\n• формирование новых гипотез на основе данных по проведенным кампаниям;\n• подготовка брифов и материалов для запуска целевых маркетинговых кампаний, координация и оптимизация работ кампейнеров;\n• контроль запуска маркетинговых кампаний;\n• коммуникации со смежными подразделениями по проработке решений для запуска онлайн маркетинговых коммуникаций;\n• формирование постановок на смежные системы по получению потоков целевых событий для запуска кампаний;\n• проработка бизнес-процессов и оптимизация решений по входящим запросам от продуктовых команд/заказчиков.\nТребования:\n• образование: высшее, приветствуются специальности маркетинг, бизнес-анализ;\n• опыт и/или знания в области управления \"Customer Journey\" и использования методик и инструментов анализа продаж или маркетинговой активности, продвижения услуг, работа с CRM-системами, кампейнинг;\n• опыт работы в банках – приветствуется, возможно – телеком, ритейл;\n• знание SQL, Python как плюс;\n• знание CRM-платформ/кампейн-движков: SAS RTDM или аналоги как существенный плюс;\n• опытный пользователь Excel, опыт подготовки презентаций;\n• способность ответственно, инициативно и самостоятельно выполнять свою роль;\n• быстрая обучаемость и высокая скорость погружения в задачу;\n• мультизадачность, стремление в максимально короткие сроки достичь максимальный результат;\n• аналитический склад ума;\n• умение работать с большими объемами информации, хорошая память.",
-        "vacancy_url": "https://www.superjob.ru/vakansii/customer-journey-expert-v-komandu-real-time-offering-47342101.html",
+        "vacancy_responsibilities": "Обязанности:\n• выгрузка сырых данных с помощью SQL. Оптимизация SQL запросов для регулярных выгрузок;\n• настройка новых отчетов из Яндекс.Метрики;\n• участие в подготовке ТЗ на новые лендинги компании;\n• настройка метрик на сайтах и посадочных страницах.\n• проверка данных на достоверность в системах аналитики при формировании еженедельных/ежедневных отчетов в системе Яндекс.Метрика.\n• проведение анализа результативности всех каналов трафика;\n• проведение анализа количественных и качественных показателей трафика на веб-сайте;\n• мониторинг поведенческих характеристик пользователей при посещении веб-сайта;\n• подготовка регулярного отчета по сайту и лендингам;\n• подготовка отчетов в различных срезах (по страницам, по городам, по продуктам, по аудитории, по конверсиям, по событиям, выстраивание воронки).\nТребования:\n• опыт работы не менее 2 лет в банке/агентстве работающем с банками;\n• обязательно знание SQL на уровне написания сложных, оптимизированных запросов. Желательно знание Python;\n• опыт работы с системами визуализации данных PowerBI / Google Data Studio и т.д.;\n• свободное владение основными инструментами веб-аналитики – Яндекс Метрика, Google Analytics;\n• умение работать с большим массивом данных.",
+        "vacancy_url": "https://www.superjob.ru/vakansii/produktovyj-web-analitik-47176559.html",
         "platform": "SuperJob"
     },
     {
-        "vacancy_title": "Старший менеджер по целевому маркетингу (CVM)",
-        "vacancy_city": "Москва, Пресненская набережная, 10с1",
+        "vacancy_title": "Продуктовый web-аналитик (Стрим дебетовые карты и счета)",
+        "vacancy_city": "Москва",
         "salary_from": 0,
         "salary_to": 0,
         "total_salary": "0 - 0",
-        "vacancy_responsibilities": "Обязанности:\n• Проработка клиентских путей для формирования новых гипотез по улучшению поведения сегментов и увеличению эффективности коммуникаций;\n• Сегментация клиентской базы, построение алгоритмов сегментации клиентской базы и формирование требований к данным;\n• Регулярный сбор отчетности, бизнес анализ, оценка и прогнозирование эффектов от маркетинговых инициатив;\n• Формирование новых гипотез на основе данных по проведенным кампаниям;\n• Подготовка брифов и материалов для запуска целевых маркетинговых кампаний, координация и оптимизация работ кампейнеров;\n• Контроль запуска маркетинговых кампаний;\n• Коммуникации со смежными подразделениями по проработке решений для запуска онлайн маркетинговых коммуникаций;\n• Формирование постановок на смежные системы по получению потоков целевых событий для запуска кампаний;\n• Проработка бизнес-процессов и оптимизация решений по входящим запросам от продуктовых команд/ заказчиков.\nТребования:\n• Образование: высшее, приветствуются специальности маркетинг, бизнес-анализ;\n• Опыт и/или знания в области управления \"Customer Journey\" и использования методик и инструментов анализа продаж или маркетинговой активности, продвижения услуг, работа с CRM-системами, кампейнинг;\n• Опыт работы в банках – приветствуется, возможно – телеком, ритейл;\n• Знание SQL, Python как плюс;\n• Знание CRM-платформ/ кампейн-движков: SAS RTDM или аналоги как существенный плюс;\n• Опытный пользователь Excel, опыт подготовки презентаций;\n• Способность ответственно, инициативно и самостоятельно выполнять свою роль;\n• Быстрая обучаемость и высокая скорость погружения в задачу;\n• Мультизадачность, стремление в максимально короткие сроки достичь максимальный результат;\n• Аналитический склад ума;\n• Умение работать с большими объемами информации, хорошая память.",
-        "vacancy_url": "https://www.superjob.ru/vakansii/starshij-menedzher-po-celevomu-marketingu-47637098.html",
+        "vacancy_responsibilities": "Обязанности:\n• настройка системы сбора, процессов и методов по сбору данных;\n• настройка новых отчетов из Яндекс.Метрики;\n• настройка метрик на сайтах и посадочных страницах;\n• проверка данных на достоверность в системах аналитики при формировании еженедельных/ежедневных отчетов в системе Яндекс.Метрика;\n• проведение анализа результативности всех каналов трафика;\n• проведение анализа количественных и качественных показателей трафика на веб-сайте;\n• мониторинг поведенческих характеристик пользователей при посещении веб-сайта;\n• участие в подготовке тех.заданий на новые лендинги компании;\n• подготовка регулярного отчета по сайту и лендингам;\n• подготовка отчетов в различных срезах (по страницам, по городам, по продуктам, по аудитории, по конверсиям, по событиям, выстраивание воронки);\n• анализ данных и подготовка рекомендаций для команды маркетинга.\nТребования:\n• опыт работы не менее 2-х лет в банке/агентстве работающем с банками;\n• обязательное владение SQL на уровне сложных запросов;\n• опыт работы с системами визуализации данных PowerBI / Google Data Studio и т.д.;\n• визуализация данных с помощью дашбордов;\n• умение работать с большим массивом данных;\n• желательно знание Python;\n• свободное владение основными инструментами веб-аналитики (Яндекс Метрика, Google Analytics);\n• логика и cтратегическое мышление.",
+        "vacancy_url": "https://www.superjob.ru/vakansii/produktovyj-web-analitik-47316909.html",
+        "platform": "SuperJob"
+    },
+    {
+        "vacancy_title": "ML-инженер",
+        "vacancy_city": "Москва",
+        "salary_from": 0,
+        "salary_to": 0,
+        "total_salary": "0 - 0",
+        "vacancy_responsibilities": "Мы ищем опытного разработчика в области Machine Learning для разработки и внедрения новых моделей поиска с целью улучшения релевантности и пертинентности результатов выдачи, разработки рекомендательных систем и всего, что поможет улучшить пользовательский опыт при поиске в одном из социально значимых проектов рунета.\nЧем предстоит заниматься:\n• Активно сотрудничать с аналитиками, дата-инженерами, разработкой и бизнесом.\n• Разрабатывать и внедрять ML-модели для поиска на основе внутренних и внешних данных и поведении пользователей.\n• Управлять жизненным циклом ML-моделей.\n• Вести документацию с описанием архитектуры решений, используемых алгоритмов и результатов тестирований.\n• Прорабатывать архитектуру решений, выбирать стек и обосновывать свое решение.\n• Влиять на развитие продукта и доставлять максимум ценности нашим пользователям.\nОт вас мы ждем:\n• Опыт коммерческого внедрения и поддержки ML-моделей (Docker, k8s).\n• Владение фундаментальными математическими знаниями.\n• Отличное знание Python и SQL (у нас MariaDB и Clickhouse).\n• Опыт работы с инструментами PyTorch, GPT, BERT, TensorFlow, Keras.\n• Навык глубокой декомпозиции задач и соблюдение сроков.\n• Опыт применения на практике классических алгоритмов машинного обучения.\n• Желание изучать и внедрять новые инструменты и практики.\nСвоему будущему коллеге мы предлагаем:\n• Работу в одном из самых быстрорастущих рынков - HRTech.\n• Высокую инженерную культуру.\n• Непрерывное обучение и профессиональное развитие внутри компании.\n• Возможность стать частью сплоченной команды, любящей свое дело.\n• Регулярную обратную связь от наставников и руководителей.\n• Официальную заработную плату.\n• ДМС после прохождения испытательного срока.\n• Современный офис в 10 минутах пешей прогулки от станций метро Пушкинская/Маяковская/Чеховская/Новослободская.\n• Спортивный уголок.\n• Комфортную зону отдыха.\n• Кофе-поинты с вкуснейшим кофе и вендинговым аппаратом.\n• Оборудованное просторное место для питания.\n• Оплату проезда общественным транспортом.",
+        "vacancy_url": "https://www.superjob.ru/vakansii/ml-inzhener-48160338.html",
         "platform": "SuperJob"
     },
     {
         "vacancy_title": "Lead / Senior ML Engineer",
-        "vacancy_city": "Москва, Романов переулок, 4",
+        "vacancy_city": "Москва",
         "salary_from": 0,
         "salary_to": 0,
         "total_salary": "0 - 0",
@@ -2199,7 +1341,7 @@
     },
     {
         "vacancy_title": "Системный администратор",
-        "vacancy_city": "Москва, улица Амундсена, 9",
+        "vacancy_city": "Москва",
         "salary_from": 0,
         "salary_to": 150000,
         "total_salary": "0 - 150000",
@@ -2208,18 +1350,8 @@
         "platform": "SuperJob"
     },
     {
-        "vacancy_title": "Data Analyst (Управление ВТБ PRO)",
-        "vacancy_city": "Москва, Пресненская набережная, 10",
-        "salary_from": 0,
-        "salary_to": 0,
-        "total_salary": "0 - 0",
-        "vacancy_responsibilities": "Обязанности:\n• проведение анализа бизнес-процессов работы фронтального приложения для сотрудников розничного бизнеса;\n• формирование и проверка гипотез по оптимизации бизнес-процессов;\n• составление бизнес-требований к командам разработки по оптимизации процессов;\n• разработка и оптимизация SQL-скриптов и проведение ad hoc аналитики;\n• сегментация данных, формирование и тестирование гипотез, запуск A/B тестов, поиск зависимостей, в том числе статистическими методами;\n• формирование бизнес-требований к разработке витрин данных;\n• подготовка аналитической сводки для руководства.\n \nТребования:\n• опыт работы от 2-х лет на позициях, связанных с анализом бизнес-показателей/построением моделей и/или обработкой и анализом данных;\n• высшее техническое или экономическое образование;\n• продвинутый уровень Excel (сложные функции, сводные таблицы и графики, стат.анализ);\n• средний уровень SQL (сложные join-ы, подзапросы, оконные функции);\n• знание Python, JavaScript;\n• опыт работы с HiveQL;\n• опыт работы в любой из ключевых BI систем (Qlik, Tableau, Power BI);\n• опыт работы в области банковских розничных продаж.",
-        "vacancy_url": "https://www.superjob.ru/vakansii/data-analyst-48446266.html",
-        "platform": "SuperJob"
-    },
-    {
         "vacancy_title": "Аналитик эскпорта",
-        "vacancy_city": "Москва, поселение Московский, Киевское шоссе, 22-й километр, 6с1",
+        "vacancy_city": "Москва",
         "salary_from": 0,
         "salary_to": 100000,
         "total_salary": "0 - 100000",
@@ -2229,7 +1361,7 @@
     },
     {
         "vacancy_title": "Системный администратор",
-        "vacancy_city": "Ленинградская область, Ломоносовский район, Виллозское городское поселение, деревня Малое Карлино, Пушкинское шоссе, 44",
+        "vacancy_city": "Санкт-Петербург",
         "salary_from": 80000,
         "salary_to": 0,
         "total_salary": "80000 - 0",
@@ -2238,8 +1370,18 @@
         "platform": "SuperJob"
     },
     {
+        "vacancy_title": "Биоинформатик (тематика-онкология)",
+        "vacancy_city": "Москва",
+        "salary_from": 0,
+        "salary_to": 0,
+        "total_salary": "0 - 0",
+        "vacancy_responsibilities": "В нашу мультидисциплинарную команду мы ищем специалиста-биоинформатика с опытом работы в медицинских и биологических проектах в области онкологии. Важен научный интерес в областях онкологии или генетики и желание вести разработку новых алгоритмов обработки данных.\nНа базе нашего центра есть все возможности реализовывать передовые научные проекты и развивать новые темы исследований. Мы работаем с темами фундаментальных исследований и трансляционной медицины, ведем разработки диагностических систем и инновационных терапевтических подходов.\nОбязанности:\n• биоинформатический анализ результатов молекулярного-генетических исследований;\n• обработка результатов NGS и интерпретация;\n• подготовка научных публикаций;\n• разработка и курирование пайплайнов анализа данных в рамках научных проектов.\nТребования:\n• высшее образование (законченное) по специальностям биоинформатика, биофизика, биоинженерия или математика/программирование с дополнительной специализацией в биоинформатике;\n• уверенные навыки программирования: знание R (Bioconductor), Python (Biopython, Pandas, Numpy как минимум, знание/применение других библиотек будет преимуществом);\n• уверенное владение Linux, знание Bash, навыки работы в командной строке;\n• опыт работы с Docker, Git;\n• опыт работы с NGS-данными на уровне разработки биоинформатических пайплайнов, анализа данных (геном, транскриптом, метилом, таргетное секвенирование панелей генов);\n• знание биомедицинской статистики;\n• опыт научной деятельности не менее 2 лет;\n• аналитический склад ума, педантичность, методичность, ориентированность на результат;\n• английский язык не ниже уровня Intermediate.\n• Будет преимуществом:\n• знание алгоритмов и методик системно-биологического анализа;\n• знание SQL;\n• знание хотя бы одного из следующих языков программирования: Perl, C++, Julia, Java, JavaScript;\n• владение хотя бы одним из следующих инструментов: MathCAD, MatLab, Wolfram Matematica, Octave;\n• опыт математического моделирования, навыки создания ML-моделей;\n• наличие дополнительного образования (повышение квалификации) в областях молекулярной биологии/онкологии/клеточной биологии/генетики.\nУсловия:\n• Стабильная организация, которой не страшен кризис.\n• Достойный уровень з/п, обсуждается индивидуально в зависимости от навыков.\n• Пятидневный режим рабочего времени.\n• Прикрепление к ведомственной поликлинике ФМБА.\n• Инновационная наука, проекты, имеющие прикладное значение, ориентированные на борьбу с самыми сложными болезнями.\n• Возможность публиковать результаты исследований, использовать для кандидатских и докторских диссертаций.\n• Возможно обучение (на рабочем месте или на курсах повышения квалификации) в процессе.\n• Полностью удаленный режим работы НЕ рассматриваем.",
+        "vacancy_url": "https://www.superjob.ru/vakansii/bioinformatik-48550821.html",
+        "platform": "SuperJob"
+    },
+    {
         "vacancy_title": "Аналитик данных",
-        "vacancy_city": "Москва, Смоленский бульвар, 24с4",
+        "vacancy_city": "Москва",
         "salary_from": 100000,
         "salary_to": 0,
         "total_salary": "100000 - 0",
@@ -2249,7 +1391,7 @@
     },
     {
         "vacancy_title": "Преподаватель ИТ дисциплин",
-        "vacancy_city": "Москва, Ленинградский проспект",
+        "vacancy_city": "Москва",
         "salary_from": 150000,
         "salary_to": 150000,
         "total_salary": "150000 - 150000",
