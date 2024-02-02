@@ -1,25 +1,13 @@
 import requests
 import os
-from abc import ABC, abstractmethod
 from settings import url_superjob
+from src.api_connector import APIConnector
 
 from dotenv import load_dotenv
 
 load_dotenv()
 
 superjob_api_key = os.getenv("SuperJob_API_KEY")
-
-
-class APIConnector(ABC):
-    """Класс для работы с API"""
-
-    @abstractmethod
-    def __init__(self, keyword: str):
-        self.__parameters = {}
-
-    @abstractmethod
-    def get_vacancies(self) -> list[dict]:
-        pass
 
 
 class SuperJobAPI(APIConnector):

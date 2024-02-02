@@ -2,7 +2,7 @@ from platform import platform
 
 from src.settings_hh import HeadHunterAPI
 from src.settings_superjob import SuperJobAPI
-from src.vacancies import Vacancy, Vacancy_HeadHunter, Vacancy_SuperJob
+from src.vacancies import Vacancy, VacancyHeadHunter, VacancySuperJob
 
 
 def get_vacancy_hh(vacancies: list[dict]):
@@ -15,7 +15,7 @@ def get_vacancy_hh(vacancies: list[dict]):
 
     list_vacancies = []
     for vacancy in vacancies:
-        sample_vacancy = Vacancy_HeadHunter(
+        sample_vacancy = VacancyHeadHunter(
             vacancy_title=vacancy['name'],
             vacancy_city="Город не указан" if (vacancy['address']) == None else vacancy['address']['city'],
             salary_from=vacancy['salary']['from'],
@@ -37,7 +37,7 @@ def get_vacancy_sj(vacancies: list[dict]):
 
     list_vacancies = []
     for vacancy in vacancies:
-        sample_vacancy = Vacancy_SuperJob(
+        sample_vacancy = VacancySuperJob(
             vacancy_title=vacancy['profession'],
             vacancy_city="Город не указан" if (vacancy['town']) == None else vacancy['town']['title'],
             salary_from=vacancy['payment_from'],
@@ -87,10 +87,7 @@ def filtered_salary():
     while True:
         salary = 0
         salary_query = input('Введите минимальную заработанную плату: ')
-        if not salary_query.isdigit():
-            print('Введите целое число')
-            continue
-        elif int(salary_query) < 0:
+        if not salary_query.isdigit() or int(salary_query) < 0:
             print('Введите целое число')
             continue
         else:

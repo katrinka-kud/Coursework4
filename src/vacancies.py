@@ -67,7 +67,7 @@ class Vacancy:
         return self.salary_from >= other.salary_from
 
 
-class Vacancy_HeadHunter(Vacancy):
+class VacancyHeadHunter(Vacancy):
     """Класс, указывающий с какой платформы вакансия"""
 
     def __init__(self,
@@ -90,12 +90,12 @@ class Vacancy_HeadHunter(Vacancy):
         return f"Вакансия с HeadHunter: {self.vacancy_title}"
 
     def to_json(self):
-        vacancy = super().to_json()
+        vacancy = super().to_dict()
         vacancy['platfom'] = 'HeadHunter'
         return vacancy
 
 
-class Vacancy_SuperJob(Vacancy):
+class VacancySuperJob(Vacancy):
     """Класс, указывающий с какой платформы вакансия"""
 
     def __init__(self,
@@ -118,6 +118,6 @@ class Vacancy_SuperJob(Vacancy):
         return f"Вакансия с SuperJob: {self.vacancy_title}"
 
     def to_json(self):
-        vacancy = super().to_json()
+        vacancy = super().to_dict()
         vacancy['platfom'] = 'SuperJob'
         return vacancy
