@@ -1,7 +1,8 @@
 from src.settings_hh import HeadHunterAPI
 from src.settings_superjob import SuperJobAPI
-from src.abstract_class import *
-from src.utils import *
+from src.abstract_class import JSONSaver
+from src.utils import (platform_selection, filtered_salary, filtered_vacancies_minimal_salary, filtered_platform,
+                       get_vacancy_hh, get_vacancy_sj, shows_vacancies)
 
 
 def main():
@@ -23,8 +24,8 @@ def main():
         print(f'Мы нашли для Вас {len(top_vacancies)} вакансий')
         shows_vacancies(top_vacancies)
 
-    json_saver = Get_JSONSaver('vacancies.json')
-    json_saver.get_vacancies(hh_vacancies + sj_vacancies)
+        json_saver = JSONSaver('vacancies.json')
+        json_saver.get_vacancies(hh_vacancies + sj_vacancies)
 
 
 if __name__ == '__main__':
